@@ -1,0 +1,23 @@
+# netlify.toml
+#
+# content modified from https://github.com/rbind/apreshill/blob/master/netlify.toml
+#
+# for more info see
+# A Spoonful of Hugo: The netlify.toml File
+# https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/
+# Alison Hill, if you're reading this, THANKS!
+
+
+[build]
+  publish = "public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.56.3"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+  
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.56.3"
+
+  
