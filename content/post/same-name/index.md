@@ -13,7 +13,10 @@ What do we mean when we see a bird and say that it’s a robin? A simple descrip
 
 The European robin (_Erithacus rubecula_, pictured above) is an Old World flycatcher, catching insects on the wing. 
 
-The American robin (Turdus migratorius) is a thrush, and eats earthworms and other invertebrates, along with fruits and berries. 
+The American robin (_Turdus migratorius_, below) is a thrush, and eats earthworms and other invertebrates, along with fruits and berries. 
+
+![American robin](/img/791px-Turdus-migratorius-002.jpg)
+<small><a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=253938">Link</a></small>
 
 (The naming of the American robin is a classic case of [“The Captain’s Hat”](https://www.youtube.com/watch?v=dOBhf8f7cXM); European explorers and colonists arriving in other parts of the world and naming things in a way that reflected their existing knowledge and preconceptions.)
 
