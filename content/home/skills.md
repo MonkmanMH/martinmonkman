@@ -24,12 +24,12 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Socio-Economic Statistics"
-  description = "of Canada"  
+  description = ""  
   
 [[feature]]
   icon = "calculator"
   icon_pack = "fas"
   name = "Business Analytics"
-  description = "10%"
+  description = ""
 
 +++
