@@ -1,48 +1,45 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+name: Martin Monkman
+role: Data Science Leader
+organizations:
+- name: ""
+  url: ""
+bio: My research interests include data science, socio-demographics of Canada, and business analytics.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: MA in Geography
+    institution: University of Victoria
+    year: 1994
+  - course: BSc in Geography
+    institution: University of Victoria
+    year: 1983.
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-name: Nelson Bighetti
-organizations:
-- name: Stanford University
-  url: ""
-role: Professor of Artificial Intelligence
+- Data science
+- Socio-demographics of Canada
+- Business & organizational performance measures
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/monkmanmh
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-superuser: true
-user_groups:
-- Researchers
-- Visitors
+  link: https://github.com/monkmanmh
+#superuser: true
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+An innovative and entrepeneurial data science and research leader with a national reputation for
+creating value for public sector organizations, and finding trusted data-driven answers to public policy,
+business outcome, and program performance questions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
