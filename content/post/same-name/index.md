@@ -139,7 +139,11 @@ In a large organization, the pin factory efficiencies would have led to speciali
 
 There is significant bias in the Euro- and North American-centric definition of what defines a "robin". But my view of what defines a "data scientist" might also be too narrow, in the same way that there is a [Japanese robin](https://en.wikipedia.org/wiki/Japanese_robin) and a [Siberian blue robin](https://en.wikipedia.org/wiki/Siberian_blue_robin) (below).
 
-IMAGE
+![Siberian blue robin](/img/640px-Luscinia_cyane_-_Khao_Yai.jpg)
+<small><a title="JJ Harrison / Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=253938">Link</a></small>
+
+
+
 
 
 -30-
