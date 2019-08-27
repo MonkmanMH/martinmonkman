@@ -17,19 +17,19 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  name = "Data Science"
+  description = "with R"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Socio-Economic Statistics"
+  description = "of Canada"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "calculator"
   icon_pack = "fas"
-  name = "Photography"
+  name = "Business Analytics"
   description = "10%"
 
 +++
