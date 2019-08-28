@@ -94,11 +94,14 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
+
+# Fort & Foul Bay: 48.432099, -123.322441
+
 map = 2
 map_api_key = ""
-latitude = "48.5310"
-longitude = "-123.3984"
-zoom = 10
+latitude = "48.4321"
+longitude = "-123.3224"
+zoom = 7
 
 ############################
 ## Plugins                ##
