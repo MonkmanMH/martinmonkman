@@ -22,7 +22,7 @@ The textbook is Garrett Grolemund and Hadley Wickham, _R for Data Science_.
 * the book, in a more up-to-date and including-more-material form, is freely available online at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
 
 
-## Additional Resources
+## Additional Reading
 
 
 ### Articles
@@ -36,5 +36,9 @@ Hilary Parker, 2017-08-31, [Opinionated Analysis Development](https://peerj.com/
 Roger Peng, 2019-12-22, [_R Programming for Data Science_](https://bookdown.org/rdpeng/rprogdatascience/)
 
 
+
+## Data Sources
+
+[FiveThirtyEight](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html)
 
 
