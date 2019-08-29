@@ -35,10 +35,18 @@ Hilary Parker, 2017-08-31, [Opinionated Analysis Development](https://peerj.com/
 
 Roger Peng, 2019-12-22, [_R Programming for Data Science_](https://bookdown.org/rdpeng/rprogdatascience/)
 
-
+***
 
 ## Data Sources
 
 [FiveThirtyEight](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html)
 
+***
+
+## R resources
+
+[RStudio projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+
+
+-30-
 
