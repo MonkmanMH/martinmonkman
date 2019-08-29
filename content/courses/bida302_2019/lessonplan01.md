@@ -26,9 +26,9 @@ This is the first day
 
 ## Readings
 
-Hadley Wickham. ["Tidy data", _The Journal of Statistical Software_](https://vita.had.co.nz/papers/tidy-data.html), vol. 59, 2014.
+Hadley Wickham. ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59, 2014.
 
-Karl Broman and Kara Woo, ["Data organization in spreadsheets"] [@Broman_Woo_2017].
+Karl Broman and Kara Woo, ["Data organization in spreadsheets"](https://doi.org/10.1080/00031305.2017.1375989), _The American Statistician 72 (1): 2–10.
 
 [Data Organization in Spreadsheets for Social Scientists: Formatting problems](https://datacarpentry.org/spreadsheets-socialsci/02-common-mistakes/index.html) -- DataCarpentry lesson
 
