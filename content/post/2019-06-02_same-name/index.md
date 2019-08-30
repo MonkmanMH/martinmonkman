@@ -6,6 +6,10 @@ image:
   placement: 3
 markup: mmark
 math: true
+tags:
+- data science
+- using R
+- ornithology
 title: Same bird, different name
 ---
 

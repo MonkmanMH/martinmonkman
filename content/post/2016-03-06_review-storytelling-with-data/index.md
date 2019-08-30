@@ -6,6 +6,9 @@ image:
   placement: 3
 markup: mmark
 math: true
+tags:
+- data science
+- book review
 title: Book review--Storytelling with Data
 ---
 

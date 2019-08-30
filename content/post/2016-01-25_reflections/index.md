@@ -6,6 +6,10 @@ image:
   placement: 3
 markup: mmark
 math: true
+tags:
+- data science
+- open source
+- learning
 title: Reflections on History 5702
 ---
 
