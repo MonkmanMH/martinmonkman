@@ -1,5 +1,6 @@
 ---
 date: "2016-01-25"
+lastmod: "2016-01-25"
 diagram: true
 image:
   caption: 'Image credit: [**Carleton University, Archives & Special Collections**](https://arc.library.carleton.ca/exhibits/construction-u)'
