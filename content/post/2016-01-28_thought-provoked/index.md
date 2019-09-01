@@ -21,9 +21,11 @@ At one point during during the seminar of authoring tools in the History 5702W s
 
 Not only is there no longer single way to create a paper (just fire up MS Word and start typing!), out here on the frontier it is constantly changing. Which in turn means that we are forever on the upslope of the learning curve. The curve shifts and we slide back down, with more to learn further up the curve; a Sisyphian task if ever there were.
 
-![alt text](http://www.wga.hu/detail_s/t/tiziano/09/01sisyph.jpg "Titian, "Sisyphus", 1549")
 
-###### (Image: [Titian, "Sisyphus", 1549](http://www.wga.hu/html_m/t/tiziano/09/01sisyph.html))
+![alt text](/img/01sisyph.jpg "Titian, "Sisyphus", 1549")
+
+<small>(Source: [Web Gallery of Art](http://www.wga.hu/html_m/t/tiziano/09/01sisyph.html))</small>
+
 
 
 But it wasn't always this way. Thirty-five years ago, when I was an undergraduate student, some of us had our own typewriters and the skills to transfer what we'd written long-hand into a finished document to hand in for marking. Other students relied on paying professional typists (often other students who were earning a few dollars on the side) to render their handwritten efforts.  My first jobs in government offices were much the same; there were the technical staff who did the writing and the administrative staff who did the typing. 
