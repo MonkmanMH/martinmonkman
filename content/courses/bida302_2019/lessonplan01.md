@@ -34,4 +34,12 @@ Karl Broman and Kara Woo, ["Data organization in spreadsheets"](https://doi.org/
 
 
 
+### Digging deeper
+
+"History and Overview of R", Chapter 2 in Roger Peng, 2019-12-22, [_R Programming for Data Science_](https://bookdown.org/rdpeng/rprogdatascience/history-and-overview-of-r.html)
+
+"Why is R so great?", Chapter 1.3 in Nathaniel D. Phillips, 2018-01-22, [_YaRrr! The Pirate’s Guide to R_](https://bookdown.org/ndphillips/YaRrr/why-is-r-so-great.html)
+
+
+
 -30-
