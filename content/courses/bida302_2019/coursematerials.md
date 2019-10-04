@@ -24,6 +24,8 @@ The textbook is Garrett Grolemund and Hadley Wickham, _R for Data Science_.
 
 ## Additional Reading
 
+Other resources--some required, some vital reference resources, and some optional "food for thought"--will be included in the  materials for each week's class. A cumulative resource list will be made available as part of this course site.
+
 
 ### Articles
 
