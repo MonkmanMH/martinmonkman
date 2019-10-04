@@ -16,11 +16,20 @@ weight: 1
 ## Course Objectives
 
 
+
 ## Course Philosophy
+
+Analysis of data helps us make better decisions. And computers have accelerated how much data we can analyze.
+
+We can do data analysis using GUI (Graphical User Interface) tools, such as Excel or Tableau. But using a programing language to write code that generates your analysis will make your analysis workflow reproducible and auditable, accurate, and collaborative.  
+
+In this course the emphasis will be on universal analytic methods, coding concepts, and programming practice that are universal; we will be primarily using the open source programming language R, with tangents into data analysis coding in Excel and Python.
+
+I really like this description, so (with the author's permission) I am including it here:
 
 > Over the last decade there has been a revolution in statistical and scientific computing. Open source languages like R and Python have overtaken older (and expensive!) corporate software packages like SAS and SPSS, and there are now thousands of books and blog posts and other online resources with excellent tutorials about how to analyze pretty much any kind of data.
 
->This class will expose you to R—one of the most popular, sought-after, and in-demand statistical programming languages. Armed with the foundation of R skills you’ll learn in this class, you’ll know enough to be able to find how to analyze any sort of data-based question in the future.
+>This class will expose you to R—-one of the most popular, sought-after, and in-demand statistical programming languages. Armed with the foundation of R skills you’ll learn in this class, you’ll know enough to be able to find how to analyze any sort of data-based question in the future.
 
 (from the Syllabus to [PMAP 8521: Program Evaluation for Public Service](https://evalf19.classes.andrewheiss.com/syllabus/#pep-talk)), Andrew Heiss, Georgia State University
 
@@ -56,6 +65,6 @@ The textbook is Garrett Grolemund and Hadley Wickham, _R for Data Science_.
 
 ### Articles, book chapters, and other materials
 
-Other resources--some required, some vital reference resources, and some optional "food for thought"--will be included in the lesson materials for each week's class. A cumulative resource list will be made available as part of this course site.
+Other resources--some required, some vital reference resources, and some optional "food for thought"--will be included in the  materials for each week's class. A cumulative resource list will be made available as part of this course site.
 
 

@@ -33,6 +33,10 @@ Hilary Parker, 2017-08-31, [Opinionated Analysis Development](https://peerj.com/
 
 ### Other text books
 
+
+Garrett Grolemund, [_Hands-On Programming with R_](https://rstudio-education.github.io/hopr/)
+
+
 Roger Peng, 2019-12-22, [_R Programming for Data Science_](https://bookdown.org/rdpeng/rprogdatascience/)
 
 ***
