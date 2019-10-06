@@ -83,11 +83,32 @@ The data science project workflow
 
 Data wrangling with {dplyr} and {tidyr} - the basics
 
+Good coding habits
+
+
 #### Week 3
 
-Data wrangling with {dplyr} and {tidyr} - joins
+Importing data - part 1
 
-R Markdown
+An introduction to modeling in R
+
+
+#### Week 4
+
+Importing data - part 2
+
+R Markdown - moving beyond documents and notebooks
+
+#### Week 5
+
+What-if scenarios
+
+
+#### Week 6
+
+Project presentations
+
+Where to from here?
 
 
 ***
@@ -96,8 +117,24 @@ R Markdown
 
 ### Weekly assignments
 
+* these will review the concepts introduced in that week's lesson and build on previous concepts
+
 ### Class participation
+
+* asking questions, responding to the questions of others, and collaborating with other participants
 
 ### Project
 
+* a small project that will require the application of all of the concepts introduced
+
+  - importing data
+  
+  - data wrangling
+  
+  - data modeling and summarization
+  
+  - communication
+  
+
+-30-
 
