@@ -17,7 +17,7 @@ weight: 1
 
 Martin Monkman
 
-email:
+email: mmonkman@uvic.ca
 
 skype: monkmanmh
 
@@ -25,7 +25,7 @@ virtual office hours: (please use skype)
 
 * Tuesday, 8:00 pm - 9:00 pm
 
-* or by appointment
+* or by appointment (send me an email)
 
 
 ***
