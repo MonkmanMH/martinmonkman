@@ -108,13 +108,17 @@ Where to from here?
 
 ## Evaluation
 
+
+
 ### Class participation (marks: 20)
 
 * attendance
 
 * doing the readings
 
-* asking questions, responding to the questions of others, and collaborating with other participants
+* asking questions and responding to the questions of others
+
+* collaborating with other participants
 
 
 ### Weekly assignments (marks: 12 each, 48 total)
@@ -147,6 +151,7 @@ Where to from here?
   
   - communication
 
+* the project will be introduced in Week 4
 
 
 ***
@@ -155,7 +160,7 @@ Where to from here?
 
 "Smart people ask stupid questions." (Source unknown)
 
-Any language, computer or human, can be a challenge to learn. We bring our established ways of thinking, and another language won't always conform to those ideas. For example, French has gendered nouns -- _le pot_ (pot or drink) and _la peau_ (skin) -- and English does not. For an English-speaker, this can be frustrating!
+Any language, computer or human, can be a challenge to learn. We bring our established ways of thinking, and another language won't always conform to those ideas. For example, French has gendered nouns -- for example, _le pot_ (pot or drink) and _la peau_ (skin) -- and English does not. For an English-speaker, this can be frustrating!
 
 One of the most important developers of R packages (and co-author of our textbook), Hadley Wickham, was recently [quoted in an interview](https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/):
 
@@ -171,7 +176,7 @@ One of the most important developers of R packages (and co-author of our textboo
 
 Congratulations! You read to the end of the Syllabus. 
 
-For a single bonus mark, please email me the following:
+For a single bonus mark, before 2019-11-07 11:59 PM PDT please email me the following:
 
 * a picture of a geographic location (a building, city skyline, natural landscape, etc.) with a bit of information as to the where it is, and why you chose it.
 

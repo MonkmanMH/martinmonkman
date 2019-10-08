@@ -26,6 +26,8 @@ This is the first day
 
 ## Readings
 
+The BIDA 302 Course Syllabus.
+
 Hadley Wickham. ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59, 2014.
 
 Karl Broman and Kara Woo, ["Data organization in spreadsheets"](https://doi.org/10.1080/00031305.2017.1375989), _The American Statistician 72 (1): 2–10.
