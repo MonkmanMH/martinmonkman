@@ -15,7 +15,7 @@ weight: 3
 
 # Data Analytics Coding Fundamentals
 
-## _Lesson plan_
+## _Lesson plan, week 1_
 
 ## Martin Monkman, instructor
 
@@ -168,6 +168,7 @@ Karl Broman and Kara Woo, ["Data organization in spreadsheets"](https://doi.org/
 
 [Data Organization in Spreadsheets for Social Scientists: Formatting problems](https://datacarpentry.org/spreadsheets-socialsci/02-common-mistakes/index.html) -- DataCarpentry lesson
 
+Nathaniel D. Phillips, [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) -- [Chapter 2, Getting Started](https://bookdown.org/ndphillips/YaRrr/started.html) provides a good summary of R, RStudio, and packages
 
 
 ### Digging deeper
