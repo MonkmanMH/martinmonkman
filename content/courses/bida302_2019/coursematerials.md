@@ -52,7 +52,7 @@ Hilary Parker, 2017-08-31, [Opinionated Analysis Development](https://peerj.com/
 
 Hadley Wickham. ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59, 2014.
 
-
+Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) "Good enough practices in scientific computing", PLoS Comput Biol 13(6): e1005510. [https://doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 
 ***
 
