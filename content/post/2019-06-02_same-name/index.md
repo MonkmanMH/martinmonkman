@@ -1,6 +1,7 @@
 ---
 date: "2019-06-02"
-lastmod: "2019-06-02"
+publishDate: "2019-06-02"
+lastmod: ""
 diagram: true
 image:
   caption: 'Image credit: [**© Francis C. Franklin / CC-BY-SA-3.0**](https://en.wikipedia.org/wiki/European_robin#/media/File:Erithacus_rubecula_with_cocked_head.jpg)'
