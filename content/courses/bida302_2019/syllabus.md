@@ -6,7 +6,7 @@ menu:
   bida302_2019:
 #    parent: Syllabus
     weight: 1
-title: Syllabus
+title: Syllabus DRAFT
 toc: true
 type: docs
 weight: 1
