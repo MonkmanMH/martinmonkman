@@ -1,6 +1,6 @@
 ---
 date: "2019-10-03"
-draft: true
+draft: false
 linktitle: Syllabus
 menu:
   bida302_2019:
@@ -178,7 +178,7 @@ Congratulations! You read to the end of the Syllabus.
 
 For a single bonus mark, before 2019-11-07 11:59 PM PDT please email me the following:
 
-* a picture of a geographic location (a building, city skyline, natural landscape, etc.) with a bit of information as to the where it is, and why you chose it.
+* a picture of a geographic location (a building, city skyline, natural landscape, etc.) with a bit of information as to what the picture shows, and why you chose it.
 
 
 
