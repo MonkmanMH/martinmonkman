@@ -1,7 +1,7 @@
 ---
 date: "2019-11-16"
 draft: true
-linktitle: Week 1
+linktitle: Week 3
 menu:
   bida302_2019:
     parent: Topics Covered
