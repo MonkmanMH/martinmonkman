@@ -68,15 +68,18 @@ Introduction to R and RStudio
 
 Introduction to markdown and R Markdown
 
+The data science project workflow
+
 Tidy data
 
-#### Week 2
 
-The data science project workflow
+#### Week 2
 
 Data wrangling with {dplyr} and {tidyr} - the basics
 
 Good coding habits
+
+R Markdown - the next level
 
 
 #### Week 3
@@ -91,6 +94,7 @@ An introduction to modeling in R
 Importing data - part 2
 
 R Markdown - moving beyond documents and notebooks
+
 
 #### Week 5
 
@@ -127,12 +131,12 @@ Where to from here?
 
 * these four assignments will review the concepts introduced in that week's lesson and build on previous concepts
 
-* the assignments will be introduced and discussed at the end of the previous week's lesson; there may be time to work on the assignment in-class
+* the assignments will be introduced and discussed at the end of the week's lesson; there may be time to work on the assignment in-class
 
 * there will be no "weekly assignment" to hand in at Week 6, because you'll be presenting your Project that week
 
 
-### Additional stretch assignments (marks: 0)
+### Additional optional stretch assignments (marks: 0)
 
 * these _optional_ assignments will give you the opportunity for additional practice and to flex your developing coding muscles
 
