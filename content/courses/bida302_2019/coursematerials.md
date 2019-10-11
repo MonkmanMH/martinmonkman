@@ -1,15 +1,15 @@
 ---
-date: 2019-10-07
-draft: true
+date: "2019-10-01"
+draft: false
 linktitle: Course Materials
 menu:
   bida302_2019:
-#    parent: Syllabus
-    weight: 2
+    parent: Syllabus
+    weight: 3
 title: Course Materials
 toc: true
 type: docs
-weight: 2
+weight: 3
 ---
 
 
@@ -17,9 +17,9 @@ weight: 2
 
 The textbook is Garrett Grolemund and Hadley Wickham, _R for Data Science_. 
 
-* paper copies are available at the UVic Bookstore or other retailers
+* the book, in its most up-to-date form, is freely available online at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
 
-* the book, in a more up-to-date and including-more-material form, is freely available online at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
+* paperback and ebook version are available at the UVic Bookstore or other retailers
 
 
 ![R for Data Science](/img/r4ds_300.png)
@@ -27,7 +27,7 @@ The textbook is Garrett Grolemund and Hadley Wickham, _R for Data Science_.
 
 ## Additional Reading
 
-Other resources--some required, some vital reference resources, and some optional "food for thought"--will be included in the  materials for each week's class. A cumulative resource list will be made available as part of this course site.
+Other resources&#8212;some required, some vital reference resources, and some optional "food for thought"&#8212;will be included in the  materials for each week's class. A cumulative resource list will be made available as part of this course site.
 
 
 

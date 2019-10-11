@@ -17,11 +17,12 @@ weight: 1
 
 Martin Monkman
 
-email: mmonkman@uvic.ca
+* email: <mmonkman@uvic.ca>
 
-skype: monkmanmh
+* skype: <a href="skype:monkmanmh?call">monkmanmh</a>
 
-virtual office hours: (please use skype)
+
+virtual (skype) office hours:
 
 * Tuesday, 8:00 pm - 9:00 pm
 
@@ -34,7 +35,7 @@ virtual office hours: (please use skype)
 
 Analysis of data helps us make better decisions. And computers have accelerated how much data we can analyze.
 
-We can do data analysis using GUI (Graphical User Interface) tools, such as Excel or Tableau. But using a programing language to write code that generates your analysis will make your analysis workflow: 
+We can do data analysis using GUI (Graphical User Interface) tools, such as Excel or Tableau. But using a programing language to write code that generates your analysis will make you more efficient and effective, open up a universe of additional functionality, and make your analysis workflow: 
 
 * reproducible and auditable, 
 
@@ -60,52 +61,17 @@ Here's another course description, one that I really like, so (with the author's
 
 ## Course Outline
 
-#### Week 1
-
-Why code? Why R?
-
-Introduction to R and RStudio
-
-Introduction to markdown and R Markdown
-
-The data science project workflow
-
-Tidy data
 
 
-#### Week 2
+| Week      | Date | Topics   | Lesson |
+|---        |:---  |:---      |:---:  |
+|1          | 2019-11-02 | Why code? Why R? <br> Introduction to R and RStudio <br> Introduction to markdown and R Markdown <br> Tidy data <br> Basic data manipulations | [link]({{< ref "lessonplan01" >}}) |
+|2          | 2019-11-09 | Data wrangling - the basics <br> Good coding habits <br> R Markdown - the next level | &#8212; |
+|3          | 2019-11-16 | Functions <br> Importing and exporting data - part 1 <br> Relational data <br> An introduction to modeling | &#8212; |
+|4          | 2019-11-23 | Working with dates <br> Working with strings <br> R Markdown - moving beyond documents and notebooks | &#8212; |
+|5          | 2019-11-30 | What-if scenarios <br> R Markdown - the next level | &#8212; |
+|6          | 2019-12-07 | Project presentations <br> Where to from here? | &#8212; |
 
-Data wrangling with {dplyr} and {tidyr} - the basics
-
-Good coding habits
-
-R Markdown - the next level
-
-
-#### Week 3
-
-Importing data - part 1
-
-An introduction to modeling in R
-
-
-#### Week 4
-
-Importing data - part 2
-
-R Markdown - moving beyond documents and notebooks
-
-
-#### Week 5
-
-What-if scenarios
-
-
-#### Week 6
-
-Project presentations
-
-Where to from here?
 
 
 ***

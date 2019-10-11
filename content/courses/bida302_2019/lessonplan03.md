@@ -5,11 +5,11 @@ linktitle: Week 3
 menu:
   bida302_2019:
     parent: Topics Covered
-    weight: 1
+    weight: 3
 title: Week 3 (2019-11-16)
 toc: true
 type: docs
-weight: 3
+weight: 6
 ---
 
 > The important thing is that you solve the problem that you’re working on, not write the most concise and elegant code (although that’s definitely something you want to strive towards!)

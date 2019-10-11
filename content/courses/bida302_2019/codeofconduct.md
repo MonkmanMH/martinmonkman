@@ -1,11 +1,11 @@
 ---
-date: "2019-05-05T00:00:00+01:00"
+date: "2019-10-01"
 draft: false
 linktitle: Code of Conduct
 menu:
   bida302_2019:
     parent: Syllabus
-    weight: 1
+    weight: 2
 title: Code of Conduct
 toc: true
 type: docs

@@ -9,7 +9,7 @@ menu:
 title: Week 1 (2019-11-02)
 toc: true
 type: docs
-weight: 3
+weight: 4
 ---
 
 
@@ -20,7 +20,8 @@ weight: 3
 ## Martin Monkman, instructor
 
 
-> pithy quote
+> The important thing is that you solve the problem that you’re working on, not write the most concise and elegant code (although that’s definitely something you want to strive towards!)
+> - Grolemund & Wickham, _R for Data Science_
 
 
 
