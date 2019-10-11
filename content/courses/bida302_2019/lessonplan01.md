@@ -1,6 +1,6 @@
 ---
-date: "2019-11-02"
-draft: false
+date: "2019-10-11"
+#draft: false
 linktitle: Week 1
 menu:
   bida302_2019:
