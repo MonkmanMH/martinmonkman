@@ -21,7 +21,7 @@ The European robin (_Erithacus rubecula_, pictured above) is an Old World flycat
 
 The American robin (_Turdus migratorius_, below) is a thrush, and eats earthworms and other invertebrates, along with fruits and berries. 
 
-![American robin](/img/791px-Turdus-migratorius-002.jpg)
+![American robin](791px-Turdus-migratorius-002.jpg)
 <small><a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=253938">Link</a></small>
 
 (The naming of the American robin is a classic case of [“The Captain’s Hat”](https://www.youtube.com/watch?v=dOBhf8f7cXM); European explorers and colonists arriving in other parts of the world and naming things in a way that reflected their existing knowledge and preconceptions.)
@@ -122,8 +122,7 @@ I work in a small data analytics organization, and lead a crack team of data sci
 
 An example of our workflow can be shown in the example of an employee survey that we conduct. Our process used to look like this:
 
-IMAGE
-
+![workflow - old](survey_workflow_1.png)
 [_source: modified from Andy Teucher and Stephanie Hazlitt_](https://github.com/bcgov/bcgov-rstats-public-presentations/tree/master/2018-11-05_UBC_GEM580)
 
 Data was extracted from the human resources database; we relied on database administrators from outside our organization to do this for us. This data was the basis of the survey frame, which was used in our survey software to administer the survey; the survey data then flowed into SPSS, where it was joined with demographic values pulled from the HR database. Manipulation and modelling occured in three programs: SPSS, Excel, and Stata. 
@@ -132,7 +131,8 @@ The reporting to the clients was in the form of summary tables in Excel, along w
 
 Now it looks like this:
 
-IMAGE
+![workflow - new](survey_workflow_2.png)
+[_source: modified from Andy Teucher and Stephanie Hazlitt_](https://github.com/bcgov/bcgov-rstats-public-presentations/tree/master/2018-11-05_UBC_GEM580)
 
 
 The data scientists in our organization can write (in R) code that pulls the extract from the database which is used for the survey frame. They deploy the survey to collect the data, and then use R to wrangle and model the survey data--work that was done in a variety of other tools. The data scientists have also written R code, and creates a variety of outputs including Excel (using the [{xlsx} package](https://github.com/colearendt/xlsx)), PDF, and (coming soon) web-based reports (using [Shiny](https://shiny.rstudio.com/)).
@@ -145,7 +145,7 @@ In a large organization, the pin factory efficiencies would have led to speciali
 
 There is significant bias in the Euro- and North American-centric definition of what defines a "robin". But my view of what defines a "data scientist" might also be too narrow, in the same way that there is a [Japanese robin](https://en.wikipedia.org/wiki/Japanese_robin) and a [Siberian blue robin](https://en.wikipedia.org/wiki/Siberian_blue_robin) (below).
 
-![Siberian blue robin](/img/640px-Luscinia_cyane_-_Khao_Yai.jpg)
+![Siberian blue robin](640px-Luscinia_cyane_-_Khao_Yai.jpg)
 <small><a title="JJ Harrison / Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=253938">Link</a></small>
 
 
