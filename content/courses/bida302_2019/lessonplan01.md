@@ -17,6 +17,9 @@ weight: 4
 
 ## _Lesson plan, week 1_
 
+**_subject to change_**
+
+
 ## Martin Monkman, instructor
 
 
@@ -159,9 +162,9 @@ Format: instructor summary, w/ slides
 
 ***
 
-## Readings
+## Readings for next week
 
-The BIDA 302 Course Syllabus.
+The [BIDA302 Course Syllabus]({{< ref "syllabus" >}}) .
 
 Hadley Wickham. ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59, 2014.
 
@@ -169,14 +172,20 @@ Karl Broman and Kara Woo, ["Data organization in spreadsheets"](https://doi.org/
 
 [Data Organization in Spreadsheets for Social Scientists: Formatting problems](https://datacarpentry.org/spreadsheets-socialsci/02-common-mistakes/index.html) -- DataCarpentry lesson
 
-Nathaniel D. Phillips, [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) -- [Chapter 2, Getting Started](https://bookdown.org/ndphillips/YaRrr/started.html) provides a good summary of R, RStudio, and packages
 
+### Digging deeper into this week's topics
 
-### Digging deeper
+Nathaniel D. Phillips, [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) 
+
+- [Chapter 1.3, "Why is R so great?"](https://bookdown.org/ndphillips/YaRrr/why-is-r-so-great.html)
+
+- [Chapter 2, "Getting Started"](https://bookdown.org/ndphillips/YaRrr/started.html) provides a good summary of R, RStudio, and packages
 
 "History and Overview of R", Chapter 2 in Roger Peng, 2019-12-22, [_R Programming for Data Science_](https://bookdown.org/rdpeng/rprogdatascience/history-and-overview-of-r.html)
 
-"Why is R so great?", Chapter 1.3 in Nathaniel D. Phillips, 2018-01-22, [_YaRrr! The Pirate’s Guide to R_](https://bookdown.org/ndphillips/YaRrr/why-is-r-so-great.html)
+Lucy D'Agostino McGowan, 2017-07-28, [R release names](https://livefreeordichotomize.com/2017/09/28/r-release-names/)
+
+- [an up-to-date list](https://bookdown.org/martin_monkman/DataScienceResources_book/using-r.html#r-release-names)
 
 
 

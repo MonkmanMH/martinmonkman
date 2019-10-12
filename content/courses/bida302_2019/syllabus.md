@@ -61,12 +61,12 @@ Here's another course description, one that I really like, so (with the author's
 
 ## Course Outline
 
-
+**_subject to change_**
 
 | Week      | Date | Topics   | Lesson |
 |---        |:---  |:---      |:---:  |
-|1          | 2019-11-02 | Why code? Why R? <br> Introduction to R and RStudio <br> Introduction to markdown and R Markdown <br> Tidy data <br> Basic data manipulations | [link]({{< ref "lessonplan01" >}}) |
-|2          | 2019-11-09 | Data wrangling - the basics <br> Good coding habits <br> R Markdown - the next level | &#8212; |
+|1          | 2019-11-02 | Why code? Why R? <br> Introduction to R and RStudio <br> Introduction to markdown and R Markdown <br> Basic data manipulations | [link]({{< ref "lessonplan01" >}}) |
+|2          | 2019-11-09 | Tidy data <br> Data wrangling - the basics <br> Good coding habits <br> R Markdown - the next level | &#8212; |
 |3          | 2019-11-16 | Functions <br> Importing and exporting data - part 1 <br> Relational data <br> An introduction to modeling | &#8212; |
 |4          | 2019-11-23 | Working with dates <br> Working with strings <br> R Markdown - moving beyond documents and notebooks | &#8212; |
 |5          | 2019-11-30 | What-if scenarios <br> R Markdown - the next level | &#8212; |
