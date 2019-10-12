@@ -162,7 +162,9 @@ Format: instructor summary, w/ slides
 
 ***
 
-## Readings for next week
+## Readings 
+
+### Getting ready for next week
 
 The [BIDA302 Course Syllabus]({{< ref "syllabus" >}}) .
 
