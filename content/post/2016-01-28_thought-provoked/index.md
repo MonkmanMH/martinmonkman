@@ -17,7 +17,7 @@ title: Always a learner be
 
 **_Or_, another thought provoked (History 5702W)**
 
-At one point during during the seminar of authoring tools in the History 5702W seminar (see [Reflections on History 5702W](/2016-01-25_reflections/index.html)), the discussion turned to complexities and difficulties associated with learning all the new tools available to researchers. Examples raised in the conversation included the myriad flavours of markdown, the additional layers of pandoc, the variety of tools that allows various reference styles to be incorporated, _ad infinitum_. 
+At one point during during the seminar of authoring tools in the History 5702W seminar (see [Reflections on History 5702W](../2016-01-25_reflections/)), the discussion turned to complexities and difficulties associated with learning all the new tools available to researchers. Examples raised in the conversation included the myriad flavours of markdown, the additional layers of pandoc, the variety of tools that allows various reference styles to be incorporated, _ad infinitum_. 
 
 Not only is there no longer single way to create a paper (just fire up MS Word and start typing!), out here on the frontier it is constantly changing. Which in turn means that we are forever on the upslope of the learning curve. The curve shifts and we slide back down, with more to learn further up the curve; a Sisyphian task if ever there were.
 
@@ -69,5 +69,8 @@ Some additional references:
 
 * Sean Kheraj, 2010, ["History Tech Tips #3: Top 5 Indispensible Digital History Tools"](http://www.seankheraj.com/?p=940).
  
+
+_Originally posted to [monkmanmh.github.io](https://monkmanmh.github.io/history5702w/), 2016-01-28_
+
 
 -30-

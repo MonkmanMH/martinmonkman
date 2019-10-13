@@ -15,7 +15,7 @@ title: Reflections on History 5702
 ---
 
 
-I had the pleasure of speaking to the History 5702W graduate student seminar at [Carleton University](http://carleton.ca/) in Ottawa this morning. Led by [Dr. Shawn Graham](http://carleton.ca/history/people/shawn-graham/), the seminar is on ["Digital History (_or_, an introduction to hacking as a way of knowing)"](http://carleton.ca/history/graduate/hist-5702w-public-history-special-topics-digital-history/).
+I had the pleasure of speaking to the History 5702W graduate student seminar at [Carleton University](http://carleton.ca/) in Ottawa this morning (2016-01-25). Led by [Dr. Shawn Graham](http://carleton.ca/history/people/shawn-graham/), the seminar is on ["Digital History (_or_, an introduction to hacking as a way of knowing)"](http://carleton.ca/history/graduate/hist-5702w-public-history-special-topics-digital-history/).
 
 My presentation covered three different research projects I've been involved with in my professional life at [BC Stats](www.bcstats.gov.bc.ca), British Columbia's provincial statistics bureau. My intention was to introduce the students to the fact that the methods they are encountering in their digitial history class are being applied in a variety of contexts outside the academy.
 
@@ -88,5 +88,10 @@ While this is a common discussion topic in the circles I normally lurk, it was r
 ## And in conclusion
 
 All in all, it was a very thought-provoking couple of hours.  Thanks to Shawn Graham for giving me the opportunity, and to the students in History 5702W for a lively discussion. 
+
+
+_Originally posted to [monkmanmh.github.io](https://monkmanmh.github.io/history5702w/), 2016-01-25_
+
+
 
 -30-

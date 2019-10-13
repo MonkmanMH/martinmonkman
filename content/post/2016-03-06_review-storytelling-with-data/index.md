@@ -17,6 +17,9 @@ title: Book review--Storytelling with Data
 #### by Cole Nussbaumer Knaflic (2015, Wiley)
 
 
+_Originally posted to [bayesball.blogspot.com](https://bayesball.blogspot.com/2016/03/book-review-storytelling-with-data.html), 2016-03-06_
+
+
 One of the great strengths of R is that there are some robust (and always improving) packages that facilitate great data visualization and tabular summaries. Beyond the capabilities built into the base version of R, packages such as `ggplot2` (my favourite), `lattice`, and `vcd` and `vcdExtra` extend the possibilities for rendering charts and graphs, and a similar variety exist for reproducing tables. And accompanying these packages have been a variety of fine instruction manuals that delineate the code necessary to produce high-quality and reproducible outputs. (You can't go wrong by starting with Winston Chang's _R Graphics Cookbook_, and the [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) based on Naomi Robbins's _Creating More Effective Graphs_, created and maintained by Joanna Zhao and Jennifer Bryan at the University of British Columbia.)
 
 Let's call these the "how" resources; once you've determined you want a Cleveland plot (which are sometimes called "lollipop plots"---please, just stop it), these sources provide the code for that style of chart, including the myriad options available to you.

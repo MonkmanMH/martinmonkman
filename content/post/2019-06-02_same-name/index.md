@@ -15,6 +15,8 @@ tags:
 title: Same bird, different name
 ---
 
+_Originally posted to [bayesball.blogspot.com](https://bayesball.blogspot.com/2019/06/same-name-different-bird.html), 2019-06-02_
+
 What do we mean when we see a bird and say that it’s a robin? A simple description would be a small brownish bird with a red breast. But that’s a superficial description, and when we say “robin” what we mean depends on your location; you don’t have to look very closely to see that the European and American robins are fundamentally different.
 
 The European robin (_Erithacus rubecula_, pictured above) is an Old World flycatcher, catching insects on the wing. 

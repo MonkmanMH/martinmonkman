@@ -60,6 +60,8 @@ Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) "Good enou
 
 [FiveThirtyEight](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html)
 
+[Gapminder](https://www.gapminder.org/data/)
+
 ***
 
 ## R resources
