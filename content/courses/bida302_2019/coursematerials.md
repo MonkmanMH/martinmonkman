@@ -62,6 +62,8 @@ Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) "Good enou
 
 [Gapminder](https://www.gapminder.org/data/)
 
+[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)
+
 ***
 
 ## R resources

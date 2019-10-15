@@ -104,12 +104,18 @@ Format: instructor, lecture w/slides
 Time allocation: 15 minutes (10:45 to 11:00)
 
 
-### 4. Data Wrangling
+### 4a. Data Wrangling
 
 Format: instructor, lecture w/slides
 
 Time allocation: 15 minutes (10:45 to 11:00)
 
+
+### 4b. Data Wrangling
+
+Format: learner (instructor guided)
+
+Time allocation: 60 minutes (11:00 to 12:00)
 
 
 ## LUNCH
@@ -118,42 +124,53 @@ Time allocation: 60 minutes (12:00 to 1:00)
 
 ***
 
-### 5. Data Wrangling (part 2)
+### 5a. Data Wrangling (part 2)
 
 Format: instructor, lecture w/slides
 
-Time allocation: 15 minutes (10:45 to 11:00)
+Time allocation: 15 minutes (1:00 to 1:15)
+
+### 5b. Data Wrangling
+
+Format: learner (instructor guided)
+
+Time allocation: 60 minutes (1:15 to 2:15)
+
 
 
 
 ## BREAK
 
-Time allocation: 10 minutes (2:30 to 2:45)
+Time allocation: 15 minutes (2:15 to 2:30)
 
 
 ***
 
-## 5. Assignment #1
+## 6. Assignment #1
 
-Time allocation: 55 minutes (2:45 to 3:40)
+Time allocation: 55 minutes (2:30 to 3:00)
 
+
+## 7. Installing R & RStudio on your own computer
+
+Time allocation: 15 minutes (3:15 to 3:30)
 
 ***
 
 
-### 6. Wrap up
+### 8. Wrap up
 
-Time allocation: 20 minutes (3:40 to 4:00)
+Time allocation: 30 minutes (3:30 to 4:00)
 
-#### 6a. Summary
+#### 8a. Summary
 
 Format: instructor summary, w/ slides
 
-#### 6b. Questions?
+#### 8b. Questions?
 
 Format: learner Q&A
 
-#### 6c. Preview/readings for next lesson
+#### 8c. Preview/readings for next lesson
 
 Format: instructor summary, w/ slides
 
@@ -166,7 +183,7 @@ Format: instructor summary, w/ slides
 
 ### Getting ready for next week
 
-The [BIDA302 Course Syllabus]({{< ref "syllabus" >}}) .
+The [BIDA302 Course Syllabus]({{< ref "syllabus" >}}) and [Code of Conduct]({{< ref "codeofconduct" >}}).
 
 Hadley Wickham. ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59, 2014.
 
