@@ -1,6 +1,6 @@
 ---
 date: "2019-10-03"
-draft: false
+draft: true
 linktitle: Syllabus
 menu:
   bida302_2019:

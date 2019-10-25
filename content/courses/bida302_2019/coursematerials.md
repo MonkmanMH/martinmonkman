@@ -1,6 +1,6 @@
 ---
 date: "2019-10-01"
-draft: false
+draft: true
 linktitle: Course Materials
 menu:
   bida302_2019:
