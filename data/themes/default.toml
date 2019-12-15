@@ -1,17 +1,17 @@
 # Theme metadata
-name = "Forest"
+name = "Martin_2020"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#4caf50"
+primary = "#0F4C81"
 
 # Menu
-menu_primary = "#4caf50"
-menu_text = "#fff"
-menu_text_active = "#1b5e20"
-menu_title = "#fff"
+menu_primary = "#0F4C81"
+menu_text = "#eff0f1"
+menu_text_active = "#f0daa4"
+menu_title = "#eff0f1"
 
 # Home sections
 home_section_odd = "rgb(255, 255, 255)"
