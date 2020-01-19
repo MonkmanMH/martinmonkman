@@ -20,8 +20,6 @@ The definitive introduction to R, RStudio, and the tidyverse collection of packa
 * the book, in its most up-to-date form, is freely available online at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
 
 
-![R for Data Science](r4ds_300.png)
-
 
 ## Additional R resources
 
