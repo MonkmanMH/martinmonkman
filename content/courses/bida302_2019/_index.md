@@ -2,7 +2,7 @@
 date: "2019-10-09"
 draft: false
 lastmod: "2019-10-09"
-linktitle: Data Analytics Coding Fundamentals (BIDA302)
+linktitle: Data Analytics Coding Fundamentals (BIDA302) [autumn 2019]
 menu:
   bida302_2019:
     name: Overview
