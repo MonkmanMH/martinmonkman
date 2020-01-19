@@ -65,7 +65,7 @@ Here's another course description, one that I really like, so (with the author's
 
 | Week      | Date | Topics   | Lesson |
 |---        |:---  |:---      |:---:  |
-|1          | 2019-11-02 | Why code? Why R? <br> Introduction to R and RStudio <br> Introduction to markdown and R Markdown <br> Programming foundations <br> Basic data manipulations | [link]({{< ref "lessonplan01" >}}) |
+|1          | 2019-11-02 | Why code? Why R? <br> Introduction to R and RStudio <br> Introduction to markdown and R Markdown <br> Programming foundations <br> Basic data manipulations | &#8212; |
 |2          | 2019-11-09 | Tidy data <br> Data wrangling: the basics <br> Good coding habits <br> R Markdown: the next level | &#8212; |
 |3          | 2019-11-16 | Writing your own functions <br> Importing and exporting data: part 1 <br> Data wrangling: relational data | &#8212; |
 |4          | 2019-11-23 | An introduction to modeling <br> Working with dates <br> Working with strings <br> Importing and exporting data: part 2 | &#8212; |
