@@ -22,7 +22,7 @@ The textbook is Garrett Grolemund and Hadley Wickham, _R for Data Science_.
 * paperback and ebook version are available at the UVic Bookstore or other retailers
 
 
-![R for Data Science](/img/r4ds_300.png)
+![R for Data Science](r4ds_300.png)
 
 
 ## Additional Reading
