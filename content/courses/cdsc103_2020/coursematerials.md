@@ -42,11 +42,11 @@ Roger Peng, 2019-12-22, [_R Programming for Data Science_](https://bookdown.org/
 
 ### Articles: Data organization and practice
 
-Karl Broman and Kara Woo, 2017, ["Data organization in spreadsheets"](https://doi.org/10.1080/00031305.2017.1375989), _The American Statistician_ 72 (1): 2–10.
+Karl Broman and Kara Woo (2017) ["Data organization in spreadsheets"](https://doi.org/10.1080/00031305.2017.1375989), _The American Statistician_ 72 (1): 2–10.
 
-Hilary Parker, 2017-08-31, ["Opinionated Analysis Development""](https://peerj.com/preprints/3210/)
+Hilary Parker (2017-08-31) ["Opinionated Analysis Development"](https://peerj.com/preprints/3210/)
 
-Hadley Wickham. ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59, 2014.
+Hadley Wickham (2014) ["Tidy data"](https://vita.had.co.nz/papers/tidy-data.html), _The Journal of Statistical Software_, vol. 59.
 
 Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) "Good enough practices in scientific computing", PLoS Comput Biol 13(6): e1005510. [https://doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 
@@ -64,7 +64,7 @@ Martin Monkman, 2019, [_Data Science with R: A Resource Compendium_](https://boo
 
 ## GitHub repository
 
-The course lessons and lesson plans can be found at the GitHub respository [SFU_CDSC103_2020](hhttps://github.com/MonkmanMH/SFU_CDSC103_2020)
+The course lessons and lesson plans can be found at the GitHub respository [SFU_CDSC103_2020](https://github.com/MonkmanMH/SFU_CDSC103_2020)
 
 -30-
 
