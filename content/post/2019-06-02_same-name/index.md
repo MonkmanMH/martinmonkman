@@ -12,7 +12,7 @@ tags:
 - data science
 - using R
 - ornithology
-title: Same bird, different name
+title: Same name, different bird
 ---
 
 _Originally posted to [bayesball.blogspot.com](https://bayesball.blogspot.com/2019/06/same-name-different-bird.html), 2019-06-02_
