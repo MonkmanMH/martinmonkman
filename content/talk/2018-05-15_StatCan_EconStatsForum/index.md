@@ -17,8 +17,8 @@ summary: An overview of why and how BC Stats has been using R.
 tags: [using R]
 title: Data analytics using R—The BCStats experience (so far)
 links:
-- icon: slides
-  icon_pack: fab
+- icon: file-pdf
+  icon_pack: fa
   name: Slides (pdf)
   url: StatCan_Data_analytics_using_R_2018-05-15.pdf
 - icon: github
