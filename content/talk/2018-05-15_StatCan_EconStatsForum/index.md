@@ -15,7 +15,7 @@ projects:
 #publishDate: "2018-05-15"
 summary: An overview of why and how BC Stats has been using R.
 tags: [using R]
-title: Data analytics using R—The BCStats experience (so far)
+title: Data analytics using R—The BC Stats experience (so far)
 links:
 - icon: file-pdf
   icon_pack: fa
