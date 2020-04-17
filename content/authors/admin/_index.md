@@ -2,7 +2,7 @@
 authors:
 - admin
 name: Martin Monkman
-role: Data Science practitioner, Leader & Educator
+role: Data Science practitioner, leader & educator
 organizations:
 - name: ""
   url: ""
@@ -39,7 +39,6 @@ social:
 #- Visitors
 ---
 
-An innovative and entrepeneurial data science and research practitioner, leader and educator with a national reputation for
-creating value for public sector organizations, and finding trusted data-driven answers to public policy,
-business outcome, and program performance questions.
+An innovative and entrepeneurial data science and research practitioner, leader and educator—a generalist with a talent for temporary specialization—with a national reputation for creating value for public sector organizations, and finding trusted data-driven answers to public policy, business outcome, and program performance questions.
+
 
