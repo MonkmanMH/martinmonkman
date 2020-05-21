@@ -1,5 +1,5 @@
 ---
-date: "2020-04-30"
+date: "2020-05-31"
 #lastmod: "2016-01-25"
 diagram: true
 image:
@@ -51,7 +51,11 @@ I decided to employ RStudio Cloud offering as the platform for the participants 
 
 ### Additional materials
 
-{learner} -- tutormanor
+{learnr} -- tutormanor
+
+I made some tutorials for the class I'm teaching when we went online mid-stream, and frankly I wish I'd used it before. I particularly appreciate the option to have some formative assessment (eg multiple choice questions) inside the tutorial. 
+
+* publish to shinyapps.io 
 
 flipbooks
 
