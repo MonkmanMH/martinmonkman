@@ -1,5 +1,5 @@
 ---
-date: "2020-06-30"
+date: "2020-07-31"
 #lastmod: "2016-01-25"
 draft: TRUE
 diagram: true
@@ -86,6 +86,8 @@ I don't have anything beyond an inkling, but I now have the untested hypothesis 
 ### The Cons of RStudio Cloud
 
 #### 1. The participants can avoid learning how to install R themselves
+
+Yes, it's entirely possible that a student can avoid the fun! of installing R on their own computer, and becoming somewhat self-reliant in that regard. But in my experience, having a short module at the end of one of the classes after a week or two sets people up for success. By this time, they are enthusiastic R users, and can see the applications beyond the last day of class. 
 
 
 #### 2. Set up and class planning requires effort and forethought
