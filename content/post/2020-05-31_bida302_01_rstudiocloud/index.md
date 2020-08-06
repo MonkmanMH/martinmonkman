@@ -1,5 +1,5 @@
 ---
-date: "2020-07-31"
+date: "2020-08-31"
 #lastmod: "2016-01-25"
 draft: TRUE
 diagram: true
@@ -24,7 +24,7 @@ title: Teaching data science with RStudio Cloud
 
 In the summer of 2019, I received an offer from the University of Victoria to teach a new course in the Continuing Studies department, ["Data Analytics Coding Fundamentals"](https://continuingstudies.uvic.ca/business-technology-and-public-relations/courses/data-analytics-coding-fundamentals). The course ran for six consecutive Saturdays, starting on November 2, 2019. The course was repeated in the spring of 2020, starting on February 29 (auspiciously, the 20th anniversary of the release of R 1.0!)
 
-The course content—using software to automate data analytics tasks—covers a substantial chunk of what I've learned as part of my day job for, truth be told, three decades. And over the past few years I've learned and incorprated R into that work, so I was understandably enthusiastic to be given the opportunity to introduce others to the marvel of using R when tackling data analysis problems.
+The course content—using software to automate data analytics tasks—covers a substantial chunk of what I've learned as part of my day job for, truth be told, three decades. Over the years I have used a variety of different tools in that role, from SPSS and SAS for statistical analysis to VisiCalc and Lotus 1-2-3 spreadsheets. In the past few years I've learned and incorporated R into that work, and seen substantial improvements in my workflow. I was understandably enthusiastic to be given the opportunity to introduce others to the marvel of using R when tackling data analysis problems.
 
 
 ### The path to RStudio Cloud
