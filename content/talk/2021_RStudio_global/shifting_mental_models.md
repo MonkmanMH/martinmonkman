@@ -34,16 +34,20 @@ Talk theme:
 * techniques for teaching R to help it reach new domains and new audiences
 
 
-abstract: People who have experience in data analysis and statistical practice have established mental models of their workflow, in large part influenced by the ubiquity of GUI tools. In this way, their introduction to R is different than someone (say, a student in a typical undergraduate statistics class) who is simultaneously learning both the underlying methods and how to use R to implement those methods. Experienced data analysts arrive in class knowing what their outcome (the artifact of their workflow) will be—perhaps a short analytic report that combines text, summary tables, and plots—and are seeking a different way to produce that artifact.  (And as we know, you can't do data science in a GUI.) In this talk I will explore how as an instructor in university continuing studies courses I have used RStudio, RStudio Cloud, and the tidyverse to aid experienced data analysts to shift their mental models.
+Abstract: 
 
-I will present about:
+People who have experience in data analysis and statistical practice have established mental models of their workflow. These mental models are often influenced by the GUI tools that are ubiquitous in business and academic settings. As a consequence, the introduction to R and data science practice is different than the approach taken with someone (say, a student in a typical undergraduate statistics class) who is simultaneously learning both the underlying methods and how to use R to implement those methods. Experienced data analysts arrive in class knowing what their outcome (the artifact of their workflow) will be—perhaps a short analytic report that combines text, summary tables, and plots—and are seeking a different workflow to produce that artifact.  (And as we know, you can't do data science in a GUI.) 
 
-* the typical mental model of an experienced GUI data analyst
+In this talk I will explore how as an instructor in university continuing studies courses I have used RStudio, RStudio Cloud, and the tidyverse to aid experienced data analysts to shift their mental models.
 
-* Einstellung: "the development of a mechanized state of mind"
+* The typical mental model of an experienced GUI data analyst, including the steps and terminology common in those tools.
 
-* how the verbs of the tidyverse, the access to visualizations of the data, and the reduced friction of RStudio, RStudio Cloud, and the tidyverse family of packages help overcome Einstellung and ease the introduction to R.
+* The concept of Einstellung: "the development of a mechanized state of mind".
 
+* How the verbs of the tidyverse, the access to visualizations of the data, and the reduced friction of RStudio, RStudio Cloud, and the tidyverse family of packages help overcome Einstellung and ease the introduction to R and a robust data science workflow.
+
+
+Key words: teaching, adult learners, mental models
 
 
 Call for talks
