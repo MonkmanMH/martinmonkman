@@ -20,7 +20,7 @@ output: html_document
 
 author: Martin Monkman
 
-date of most recent revision: 2020-08-03
+date of most recent revision: 2020-08-24
 
 
 **rstudio::global(2021)**
@@ -36,18 +36,18 @@ Talk theme:
 
 Abstract: 
 
-People who have experience in data analysis and statistical practice have established mental models of their workflow. These mental models are often influenced by the GUI tools that are ubiquitous in business and academic settings. As a consequence, the introduction to R and data science practice is different than the approach taken with someone (say, a student in a typical undergraduate statistics class) who is simultaneously learning both the underlying methods and how to use R to implement those methods. Experienced data analysts arrive in class knowing what their outcome (the artifact of their workflow) will be—perhaps a short analytic report that combines text, summary tables, and plots—and are seeking a different workflow to produce that artifact.  (And as we know, you can't do data science in a GUI.) 
+People who have experience in data analysis and statistical practice have established mental models of their workflow. These mental models are often influenced by the GUI tools that are ubiquitous in business and academic settings. As a consequence, their introduction to R and data science practice needs to be different than the approach taken with someone (say, a student in a typical undergraduate statistics class) who is simultaneously learning both the underlying methods and how to use R to implement those methods. Experienced data analysts arrive in class knowing what their outcome (the artifact of their workflow) will be—perhaps a short analytic report that combines text, summary tables, and plots—and are seeking a different workflow to produce that artifact.  (And as we know, you can't do data science in a GUI.) 
 
-In this talk I will explore how as an instructor in university continuing studies courses I have used RStudio, RStudio Cloud, and the tidyverse to aid experienced data analysts to shift their mental models.
+In this talk I will explore how as an instructor in university continuing studies courses I have used RStudio, RStudio Cloud, and the tidyverse to guide experienced data analysts in shifting their mental models.
 
-* The typical mental model of an experienced GUI data analyst, including the steps and terminology common in those tools.
+* A typical mental model of an experienced GUI data analyst, including the steps and terminology common in those tools.
 
-* The concept of Einstellung: "the development of a mechanized state of mind".
+* The concept of Einstellung: "the development of a mechanized state of mind", and the often bad habits that we develop
 
 * How the verbs of the tidyverse, the access to visualizations of the data, and the reduced friction of RStudio, RStudio Cloud, and the tidyverse family of packages help overcome Einstellung and ease the introduction to R and a robust data science workflow.
 
 
-Key words: teaching, adult learners, mental models
+Key words: teaching, adult learners, mental models, EIKIFJB
 
 
 Call for talks
@@ -99,6 +99,8 @@ And more troublingly from people who have demonstrated some interest. They have 
 Einstellung.
 
 
+Einstellung also shows up in the habits we develop—including the bad habits, such as how we name things or how we use spreadsheets. (#EIKIFJB)
+
 
 ### Teaching a course
 
@@ -110,11 +112,11 @@ Teaching
 
 The course is the second in a series; the first is an introduction to data analytics.
 
-For simplicity's sake, consider that this is a binary, with a "none", "a little", or "a lot". There is no students who are high on both "data analytics" and "coding" dimensions—they are the people who can jump into the series in the higher level classes.
+For simplicity's sake, consider the two axes as having three bins, with a "none" or "a little", or "a lot". There is no students who are high on both "data analytics" and "coding" dimensions—the people who have those skills can jump into the course series in the higher level classes.
 
-Some people were new to both "data analytics" and "coding" when participating in the series. As well, some people were well along the "coding" (x) axis. I have had course participants who were familiar with SQL, Python, and COBOL. For these two student personas, moving into data science meant learning the "data analytics" portion. For these people, this meant the creation of summary statistics such as grouped means, an introduction to linear models, and plotting, and using R to create those.
+Some people were new to both "data analytics" and "coding" when participating in the series. As well, some people were well along the "coding" (X) axis. I have had course participants who were familiar with SQL, Python, and COBOL. For these two student personas, moving into data science meant learning the "data analytics" portion. For these people, this meant the creation of summary statistics such as grouped means, an introduction to linear models, and plotting, and using R to create those.
 
-The third group are, in some ways, similar to those work colleagues I mentioned earlier. They have a lot of data analytics experience, and can mentally visualize what a summary table or plot is going to look like based on the structure of the source data, because they have done it before. They've created analytic outputs with workflows that look like Figure 1. And these people have signed up for a six-week course that is a significant commitment of time and money, so they are motivated.
+The third group are, in some ways, similar to those work colleagues I mentioned earlier. They have a lot of data analytics experience, and are in the second or third bin on the Y axis. They can mentally visualize what a summary table or plot is going to look like based on the structure of the source data, because they have done it before. They've created analytic outputs with workflows that look like Figure 1. And these people have signed up for a six-week course that is a significant commitment of time and money, so they are motivated to learn the data analytics component.
 
 But in some ways they have the most friction. For the newcomers, this is all new, so while it's a lot of content to take in all at once, the creation of summary tables and the R code to make it happen are inextricably linked. For the programmers, R has its quirks but they have had to deal with the quirks of all the other languages they know, and they embrace the syntax once they see that it streamlines working with vector and tabular data structures. For them, the focus of the learning is the "data analytics"—what am I trying to accomplish programatically? 
 
