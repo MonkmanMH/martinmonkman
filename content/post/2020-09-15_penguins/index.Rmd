@@ -1,0 +1,26 @@
+---
+title: Importing fixed-width files with palmerpenguins
+author: Martin Monkman
+date: '2020-09-14'
+publishDate: '2020-09-14'
+draft: TRUE
+lastmod: ""
+diagram: true
+image:
+  caption: 'Image credit: [**© Arturo de Frias Marques / CC-BY-SA-4.0**](https://en.wikipedia.org/wiki/Gentoo_penguin#/media/File:Gentoo_Penguin_AdF.jpg)'
+  placement: 3
+tags:
+- data science
+- using R
+- tidyverse
+- import
+---
+
+__Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop.__
+
+
+Who doesn't like penguins? They have a quirky charm, and are an amazing demonstration of the power of evolution: they fly but only underwater, and are adapted to thrive in some of the harshest climates on Earth.
+
+The {palmerpenguins} R package contains data collected at the [Palmer Station](https://www.usap.gov/videoclipsandmaps/palwebcam.cfm) on [Anvers Island in the Antarctic](https://www.openstreetmap.org/search?query=palmer%20road#map=16/-64.7741/-64.0503){target="blank"}. The data is measurement information about three different species of penguins, from three smaller islands in the area. You can find out more about the data in the package, as well as some examples of exploring and analyzing the data using R, here: https://allisonhorst.github.io/palmerpenguins/ 
+
+-30-
