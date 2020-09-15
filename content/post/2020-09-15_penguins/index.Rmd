@@ -1,6 +1,6 @@
 ---
-date: "2020-09-15"
-publishDate: "2020-09-15"
+date: "2020-09-14"
+publishDate: "2020-09-14"
 draft: TRUE
 lastmod: ""
 diagram: true
@@ -12,6 +12,7 @@ math: true
 tags:
 - data science
 - using R
+- tidyverse
 - import
 title: Importing fixed-width files with palmerpenguins
 ---
@@ -161,6 +162,8 @@ read_fwf("penguins_fwf.txt",
                 year = col_integer())
          )
 ```
+
+
 
 You can download the fixed-width version of the palmerpenguins data file here: [penguins_fwf.txt](https://drive.google.com/file/d/1_TaotqgmiQqw0fShrEKueU5nM_RkuHbp/view?usp=sharing)
 
