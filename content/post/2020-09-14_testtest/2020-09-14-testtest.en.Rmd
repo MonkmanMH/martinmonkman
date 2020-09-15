@@ -1,0 +1,25 @@
+---
+title: testtest
+author: Martin Monkman
+date: '2020-09-14'
+slug: testtest
+categories: []
+tags:
+  - data science
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-14T20:21:18-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This is a test.
+
+_add some  italics_
+
+-30-
