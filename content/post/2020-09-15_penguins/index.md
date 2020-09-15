@@ -2,6 +2,7 @@
 title: Importing fixed-width files with palmerpenguins
 author: Martin Monkman
 date: '2020-09-14'
+draft: TRUE
 diagram: true
 featured: yes
 image:
