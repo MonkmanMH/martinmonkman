@@ -14,7 +14,6 @@ tags:
 - using R
 - tidyverse
 - import
-output: html_page
 ---
 
 __Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop.__
