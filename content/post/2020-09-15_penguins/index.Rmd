@@ -2,7 +2,6 @@
 title: Importing fixed-width files with palmerpenguins
 author: Martin Monkman
 date: '2020-09-14'
-draft: TRUE
 diagram: true
 featured: yes
 image:
@@ -13,6 +12,10 @@ tags:
 - using R
 - tidyverse
 - import
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 6
 ---
 
 __Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop.__
