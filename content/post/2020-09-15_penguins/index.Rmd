@@ -66,3 +66,5 @@ This sort of detailed table is a common component in a data dictionary for a fix
 ## importing fixed-width files with {readr} 
 
 The tidyverse package {readr}, part of the tidyverse family of R packages, provides a range of functions that make reading these files efficient.
+
+
