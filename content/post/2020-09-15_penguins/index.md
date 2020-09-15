@@ -24,3 +24,45 @@ The {palmerpenguins} R package contains data collected at the [Palmer Station](h
 
 ![palmerpenguins](logo.png)
 
+## fixed-width files
+
+This exercise in data import uses a modification of the data found in the {palmerpenguin} package—I have converted the data file to a fixed-width format. This type of plain text file isn't used as much as other types, but you may come across them in your data science journey. 
+
+One of the attributes of fixed-width files is that there are no delimiters as there are in file types such as CSV (Comma-Separated Value) and TSV (Tab-Separated Value) files. Instead, variables are assigned to specific columns in the file's rows. This means that for very large files, reading the data can be accomplished more efficiently because there is no need to search for commas or other delimiters as every row is read. In addition, the challenge of embedded delimiters is eliminated, since there are none at all.
+
+When memory was far more expensive than it is now, there was a cost incentive to create files that minimized the number of characters, including white space. This incentive was compounded when data was stored on punch cards, which had a physical constraint of an 80 character width; in that scenario, methods to eliminate _any_ superfluous characters were sought. ^[Randall Munroe, [Google's Datacentres on Punch Cards](https://what-if.xkcd.com/63/){target="blank"}])
+
+Here in 2020, cheaper storage and efficient compression methods have meant that CSV files with unfixed variable lengths are more common, but in some big data applications, fixed-width files are still used.
+
+
+## fixed-width penguins
+
+The first 10 rows of the `penguins_fwf.txt` file look like this:
+
+![penguins_fwf.txt](penguins_10rows.JPG)
+
+Note that the first row does _not_ contain the variable names, but the first record—the observed characteristics of the first penguin in our dataset. This type of structure, with the variable names stored separately, is common in fixed-width files.
+
+Also note that white space is at a minimum. For example, in the first records there are two blank spaces after the word "male" because "female" has two more letters (as is shown in the second record); the variable has to be long enough to accommodate the longest value. In data files where the creators are _really_ serious about saving space, a variable like `sex` would be coded using a single digit (perhaps 1 = "female" and 2 = "male", but be careful! ^[[Boys will be boys: Data error prompts U-turn on study of sex differences in school](https://retractionwatch.com/2017/10/17/boys-will-boys-data-error-prompts-u-turn-study-sex-differences-school/)—RetractionWatch.com]), rather than the six characters required to spell out the words.
+
+
+In the `palmerpenguins_fwf.txt` file there are 8 different variables, described in the table below:
+
+Variable           Width   Start position   End position
+--------           -----   --------------   ------------
+species            9       1                9
+island             9       10               18
+bill_length_mm     4       19               22
+bill_depth_mm      4       23               26
+flipper_length_mm  3       27               29
+body_mass_g        4       30               33
+sex                6       34               39
+year               4       40               43
+
+This sort of detailed table is a common component in a data dictionary for a fixed-width file, and is an important element in parsing the file. In addition to providing vital information to the data user, developing this table also provides a double-check on the accuracy of the location specifications.
+
+
+
+## importing fixed-width files with {readr} 
+
+The tidyverse package {readr}, part of the tidyverse family of R packages, provides a range of functions that make reading these files efficient.
