@@ -1,20 +1,19 @@
 ---
-date: "2020-09-14"
-publishDate: "2020-09-14"
+title: Importing fixed-width files with palmerpenguins
+author: Martin Monkman
+date: '2020-09-14'
+publishDate: '2020-09-14'
 draft: TRUE
 lastmod: ""
 diagram: true
 image:
   caption: 'Image credit: [**© Arturo de Frias Marques / CC-BY-SA-4.0**](https://en.wikipedia.org/wiki/Gentoo_penguin#/media/File:Gentoo_Penguin_AdF.jpg)'
   placement: 3
-markup: mmark
-math: true
 tags:
 - data science
 - using R
 - tidyverse
 - import
-title: Importing fixed-width files with palmerpenguins
 ---
 
 <small><i>Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop.</i></small>
