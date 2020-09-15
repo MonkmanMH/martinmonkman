@@ -30,7 +30,7 @@ output:
 <h2>Fixed-width files</h2>
 <p>This exercise in data import uses a modification of the data found in the {palmerpenguins} package—I have converted the data file to a fixed-width format. This type of plain text file isn’t used as much as other types, but you may come across them in your data science journey.</p>
 <p>One of the attributes of fixed-width files is that there are no delimiters as there are in file types such as CSV (Comma-Separated Value) and TSV (Tab-Separated Value) files. Instead, variables are assigned to specific columns in the file’s rows. This means that for very large files, reading the data can be accomplished more efficiently because there is no need to search for commas or other delimiters as every row is read. In addition, the challenge of embedded delimiters is eliminated, since there are none at all.</p>
-<p>When computer memory was far more expensive than it is now, there was a cost incentive to create files that minimized the number of characters, including white space. This incentive was compounded when data was stored on punch cards, which had a physical constraint of an 80 character width; in that scenario, methods to eliminate <em>any</em> superfluous characters were sought. <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>{target=“blank”})</p>
+<p>When computer memory was far more expensive than it is now, there was a cost incentive to create files that minimized the number of characters, including white space. This incentive was compounded when data was stored on punch cards, which had a physical constraint of an 80 character width; in that scenario, methods to eliminate <em>any</em> superfluous characters were sought. <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <p>Here in 2020, cheaper storage and efficient compression methods have meant that CSV files with unfixed variable lengths are more common, but in some big data applications, fixed-width files are still used.</p>
 </div>
 <div id="fixed-width-penguins" class="section level2">
@@ -41,7 +41,7 @@ output:
 <p class="caption">penguins_fwf.txt</p>
 </div>
 <p>Note that the first row does <em>not</em> contain the variable names, but the first record—the observed characteristics of the first penguin in our dataset. This type of structure, with the variable names stored separately, is common in fixed-width files.</p>
-<p>Also note that white space is at a minimum. For example, in the first records there are two blank spaces after the word “male” because “female” has two more letters (as is shown in the second record); the variable has to be wide enough to accommodate the value with the most characters. In data files where the creators are <em>really</em> serious about saving space, a variable like <code>sex</code> would be coded using a single digit (perhaps 1 = “female” and 2 = “male”, but be careful! <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>{target=“blank”}), rather than the six characters required to spell out the words.</p>
+<p>Also note that white space is at a minimum. For example, in the first records there are two blank spaces after the word “male” because “female” has two more letters (as is shown in the second record); the variable has to be wide enough to accommodate the value with the most characters. In data files where the creators are <em>really</em> serious about saving space, a variable like <code>sex</code> would be coded using a single digit (perhaps 1 = “female” and 2 = “male”, but be careful! <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>), rather than the six characters required to spell out the words.</p>
 <p>In the <code>penguins_fwf.txt</code> file there are 8 different variables, described in the table below:</p>
 <table>
 <thead>
@@ -526,8 +526,8 @@ NA
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Randall Munroe, <a href="https://what-if.xkcd.com/63/">Google’s Datacentres on Punch Cards</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><a href="https://retractionwatch.com/2017/10/17/boys-will-boys-data-error-prompts-u-turn-study-sex-differences-school/">Boys will be boys: Data error prompts U-turn on study of sex differences in school</a>—RetractionWatch.com<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Randall Munroe, <a href="https://what-if.xkcd.com/63/" target="blank">Google’s Datacentres on Punch Cards</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p><a href="https://retractionwatch.com/2017/10/17/boys-will-boys-data-error-prompts-u-turn-study-sex-differences-school/" target="blank">Boys will be boys: Data error prompts U-turn on study of sex differences in school</a>—RetractionWatch.com<a href="#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>Jenny Bryan, STAT545, <a href="https://stat545.com/import-export.html" target="blank">Chapter 9: Writing and reading files</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
