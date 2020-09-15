@@ -1,0 +1,249 @@
+---
+title: Importing fixed-width files with {palmerpenguins}
+author: Martin Monkman
+date: '2020-09-15'
+draft: false
+diagram: true
+featured: yes
+image:
+  caption: 'Image credit: [**© Arturo de Frias Marques / CC-BY-SA-4.0**](https://en.wikipedia.org/wiki/Gentoo_penguin#/media/File:Gentoo_Penguin_AdF.jpg)'
+  placement: 3
+tags:
+- data science
+- using R
+- tidyverse
+- import
+---
+
+
+
+<p><em>Gentoo penguins in Antarctica, walking along a “penguin highway”, a path that joins the sea and their nesting area on a rocky outcrop.</em></p>
+<p><strong>Who doesn’t like penguins?</strong> They have a quirky charm, and are an amazing demonstration of the power of evolution: they fly but only underwater, and are adapted to thrive in some of the harshest climates on Earth.</p>
+<p>The {palmerpenguins} R package contains data collected at the <a href="https://www.usap.gov/videoclipsandmaps/palwebcam.cfm" target="blank">Palmer Station</a> on <a href="https://www.openstreetmap.org/search?query=palmer%20road#map=16/-64.7741/-64.0503" target="blank">Anvers Island in the Antarctic</a>. The data is measurement information about three different species of penguins, from three smaller islands in the area. You can find out more about the data in the package, as well as some examples of exploring and analyzing the data using R, here: <a href="https://allisonhorst.github.io/palmerpenguins/" target="blank">https://allisonhorst.github.io/palmerpenguins/</a></p>
+<div class="figure">
+<img src="logo.png" alt="palmerpenguins" />
+<p class="caption">palmerpenguins</p>
+</div>
+<div id="fixed-width-files" class="section level2">
+<h2>Fixed-width files</h2>
+<p>This exercise in data import uses a modification of the data found in the {palmerpenguins} package—I have converted the data file to a fixed-width format. This type of plain text file isn’t used as much as other types, but you may come across them in your data science journey.</p>
+<p>One of the attributes of fixed-width files is that there are no delimiters as there are in file types such as CSV (Comma-Separated Value) and TSV (Tab-Separated Value) files. Instead, variables are assigned to specific columns in the file’s rows. This means that for very large files, reading the data can be accomplished more efficiently because there is no need to search for commas or other delimiters as every row is read. In addition, the challenge of embedded delimiters is eliminated, since there are none at all.</p>
+<p>When computer memory was far more expensive than it is now, there was a cost incentive to create files that minimized the number of characters, including white space. This incentive was compounded when data was stored on punch cards, which had a physical constraint of an 80 character width; in that scenario, methods to eliminate <em>any</em> superfluous characters were sought. <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>{target=“blank”})</p>
+<p>Here in 2020, cheaper storage and efficient compression methods have meant that CSV files with unfixed variable lengths are more common, but in some big data applications, fixed-width files are still used.</p>
+</div>
+<div id="fixed-width-penguins" class="section level2">
+<h2>fixed-width penguins</h2>
+<p>The first 10 rows of the <code>penguins_fwf.txt</code> file look like this:</p>
+<div class="figure">
+<img src="penguins_10rows.JPG" alt="penguins_fwf.txt" />
+<p class="caption">penguins_fwf.txt</p>
+</div>
+<p>Note that the first row does <em>not</em> contain the variable names, but the first record—the observed characteristics of the first penguin in our dataset. This type of structure, with the variable names stored separately, is common in fixed-width files.</p>
+<p>Also note that white space is at a minimum. For example, in the first records there are two blank spaces after the word “male” because “female” has two more letters (as is shown in the second record); the variable has to be wide enough to accommodate the value with the most characters. In data files where the creators are <em>really</em> serious about saving space, a variable like <code>sex</code> would be coded using a single digit (perhaps 1 = “female” and 2 = “male”, but be careful! <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>{target=“blank”}), rather than the six characters required to spell out the words.</p>
+<p>In the <code>penguins_fwf.txt</code> file there are 8 different variables, described in the table below:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="center">Width</th>
+<th align="center">Start position</th>
+<th align="center">End position</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">species</td>
+<td align="center">9</td>
+<td align="center">1</td>
+<td align="center">9</td>
+</tr>
+<tr class="even">
+<td align="left">island</td>
+<td align="center">9</td>
+<td align="center">10</td>
+<td align="center">18</td>
+</tr>
+<tr class="odd">
+<td align="left">bill_length_mm</td>
+<td align="center">4</td>
+<td align="center">19</td>
+<td align="center">22</td>
+</tr>
+<tr class="even">
+<td align="left">bill_depth_mm</td>
+<td align="center">4</td>
+<td align="center">23</td>
+<td align="center">26</td>
+</tr>
+<tr class="odd">
+<td align="left">flipper_length_mm</td>
+<td align="center">3</td>
+<td align="center">27</td>
+<td align="center">29</td>
+</tr>
+<tr class="even">
+<td align="left">body_mass_g</td>
+<td align="center">4</td>
+<td align="center">30</td>
+<td align="center">33</td>
+</tr>
+<tr class="odd">
+<td align="left">sex</td>
+<td align="center">6</td>
+<td align="center">34</td>
+<td align="center">39</td>
+</tr>
+<tr class="even">
+<td align="left">year</td>
+<td align="center">4</td>
+<td align="center">40</td>
+<td align="center">43</td>
+</tr>
+</tbody>
+</table>
+<p>This sort of detailed table is a common component in a data dictionary for a fixed-width file, and is an important element in programming the code to parse the file. In addition to providing vital information to the data user, developing this table also provides a double-check for the data preparer on the accuracy of the location specifications.</p>
+</div>
+<div id="importing-fixed-width-files-with-readr" class="section level2">
+<h2>importing fixed-width files with {readr}</h2>
+<p>The tidyverse package {readr}, part of the tidyverse family of R packages, provides a range of functions that make reading these files efficient.</p>
+<pre class="r"><code># load the {readr} package
+library(readr)</code></pre>
+<p>The widths and variable names can be added as lists to the <code>fwf_widths</code> argument:</p>
+<pre class="r"><code>read_fwf(&quot;penguins_fwf.txt&quot;,
+         fwf_widths(widths = c(9, 9, 4, 4, 3, 4, 6, 4),
+                    col_names = c(&quot;species&quot;, &quot;island&quot;, &quot;bill_length_mm&quot;, &quot;bill_depth_mm&quot;,
+                      &quot;flipper_length_mm&quot;, &quot;body_mass_g&quot;, &quot;sex&quot;, &quot;year&quot;)))</code></pre>
+<pre><code>## # A tibble: 344 x 8
+##    species island bill_length_mm bill_depth_mm flipper_length_~ body_mass_g
+##    &lt;chr&gt;   &lt;chr&gt;           &lt;dbl&gt;         &lt;dbl&gt;            &lt;dbl&gt;       &lt;dbl&gt;
+##  1 Adelie  Torge~           39.1          18.7              181        3750
+##  2 Adelie  Torge~           39.5          17.4              186        3800
+##  3 Adelie  Torge~           40.3          18                195        3250
+##  4 Adelie  Torge~           NA            NA                 NA          NA
+##  5 Adelie  Torge~           36.7          19.3              193        3450
+##  6 Adelie  Torge~           39.3          20.6              190        3650
+##  7 Adelie  Torge~           38.9          17.8              181        3625
+##  8 Adelie  Torge~           39.2          19.6              195        4675
+##  9 Adelie  Torge~           34.1          18.1              193        3475
+## 10 Adelie  Torge~           42            20.2              190        4250
+## # ... with 334 more rows, and 2 more variables: sex &lt;chr&gt;, year &lt;dbl&gt;</code></pre>
+<p>A second option is to provide two lists of locations using <code>fwf_positions()</code>, the first with the start positions, and the second with the end positions. The first variable “species” starts at position 1 and ends at position 9, and the second variable “island” starts at 10 and ends at 18, and so on.</p>
+<pre class="r"><code>read_fwf(&quot;penguins_fwf.txt&quot;,
+         fwf_positions(start = c(1, 10, 19, 23, 27, 30, 34, 40),
+                       end = c(9, 18, 22, 26, 29, 33, 39, 43),
+                       col_names = c(&quot;species&quot;, &quot;island&quot;, &quot;bill_length_mm&quot;, &quot;bill_depth_mm&quot;,
+                      &quot;flipper_length_mm&quot;, &quot;body_mass_g&quot;, &quot;sex&quot;, &quot;year&quot;)))</code></pre>
+<pre><code>## # A tibble: 344 x 8
+##    species island bill_length_mm bill_depth_mm flipper_length_~ body_mass_g
+##    &lt;chr&gt;   &lt;chr&gt;           &lt;dbl&gt;         &lt;dbl&gt;            &lt;dbl&gt;       &lt;dbl&gt;
+##  1 Adelie  Torge~           39.1          18.7              181        3750
+##  2 Adelie  Torge~           39.5          17.4              186        3800
+##  3 Adelie  Torge~           40.3          18                195        3250
+##  4 Adelie  Torge~           NA            NA                 NA          NA
+##  5 Adelie  Torge~           36.7          19.3              193        3450
+##  6 Adelie  Torge~           39.3          20.6              190        3650
+##  7 Adelie  Torge~           38.9          17.8              181        3625
+##  8 Adelie  Torge~           39.2          19.6              195        4675
+##  9 Adelie  Torge~           34.1          18.1              193        3475
+## 10 Adelie  Torge~           42            20.2              190        4250
+## # ... with 334 more rows, and 2 more variables: sex &lt;chr&gt;, year &lt;dbl&gt;</code></pre>
+<p>The third option, <code>fwf_cols</code>, is a syntactic variation on the second approach, with the same values but in a different order. This time, all of the relevant information about each variable is aggregated, with the name followed by the start and end locations.</p>
+<pre class="r"><code>read_fwf(&quot;penguins_fwf.txt&quot;,
+         fwf_cols(species = c(1, 9),
+                  island = c(10, 18),
+                  bill_length_mm = c(19, 22),
+                  bill_depth_mm = c(23, 26),
+                  flipper_length_mm = c(27, 29),
+                  body_mass_g = c(30, 33),
+                  sex = c(34, 39),
+                  year = c(40, 43)
+         ))</code></pre>
+<pre><code>## # A tibble: 344 x 8
+##    species island bill_length_mm bill_depth_mm flipper_length_~ body_mass_g
+##    &lt;chr&gt;   &lt;chr&gt;           &lt;dbl&gt;         &lt;dbl&gt;            &lt;dbl&gt;       &lt;dbl&gt;
+##  1 Adelie  Torge~           39.1          18.7              181        3750
+##  2 Adelie  Torge~           39.5          17.4              186        3800
+##  3 Adelie  Torge~           40.3          18                195        3250
+##  4 Adelie  Torge~           NA            NA                 NA          NA
+##  5 Adelie  Torge~           36.7          19.3              193        3450
+##  6 Adelie  Torge~           39.3          20.6              190        3650
+##  7 Adelie  Torge~           38.9          17.8              181        3625
+##  8 Adelie  Torge~           39.2          19.6              195        4675
+##  9 Adelie  Torge~           34.1          18.1              193        3475
+## 10 Adelie  Torge~           42            20.2              190        4250
+## # ... with 334 more rows, and 2 more variables: sex &lt;chr&gt;, year &lt;dbl&gt;</code></pre>
+<p>And finally, {readr} provides a fourth way to specify the variables in a fixed-width file. Similar to the previous example, this variation has the name and the width values specified together.</p>
+<pre class="r"><code># read 
+read_fwf(&quot;penguins_fwf.txt&quot;, 
+         fwf_cols(
+           species = 9,
+           island = 9,
+           bill_length_mm = 4,
+           bill_depth_mm = 4,
+           flipper_length_mm = 3,
+           body_mass_g = 4,
+           sex = 6,
+           year = 4
+           )
+         )</code></pre>
+<pre><code>## # A tibble: 344 x 8
+##    species island bill_length_mm bill_depth_mm flipper_length_~ body_mass_g
+##    &lt;chr&gt;   &lt;chr&gt;           &lt;dbl&gt;         &lt;dbl&gt;            &lt;dbl&gt;       &lt;dbl&gt;
+##  1 Adelie  Torge~           39.1          18.7              181        3750
+##  2 Adelie  Torge~           39.5          17.4              186        3800
+##  3 Adelie  Torge~           40.3          18                195        3250
+##  4 Adelie  Torge~           NA            NA                 NA          NA
+##  5 Adelie  Torge~           36.7          19.3              193        3450
+##  6 Adelie  Torge~           39.3          20.6              190        3650
+##  7 Adelie  Torge~           38.9          17.8              181        3625
+##  8 Adelie  Torge~           39.2          19.6              195        4675
+##  9 Adelie  Torge~           34.1          18.1              193        3475
+## 10 Adelie  Torge~           42            20.2              190        4250
+## # ... with 334 more rows, and 2 more variables: sex &lt;chr&gt;, year &lt;dbl&gt;</code></pre>
+<p>As with all of the functions in {readr}, we have the ability to specify the type of variables we want in our data in the script the reads the file. Heed the wisdom of Jenny Bryan:</p>
+<blockquote>
+<p>My main import advice: use the arguments of your import function to get as far as you can, as fast as possible. Novice code often has a great deal of unnecessary post import fussing around. Read the docs for the import functions and take maximum advantage of the arguments to control the import. <a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+</blockquote>
+<p>Here’s the docs for the {readr} functions to “Read a fixed width file into a tibble”: <a href="https://readr.tidyverse.org/reference/read_fwf.html" target="blank">https://readr.tidyverse.org/reference/read_fwf.html</a></p>
+<p>An example: starting with the <code>fwf_cols</code> option we saw above, the code below uses <code>col_types</code> to specify “sex” as a factor, and “year” as an integer.</p>
+<pre class="r"><code># with column specification
+read_fwf(&quot;penguins_fwf.txt&quot;, 
+         fwf_cols(
+           species = 9, 
+                  island = 9,
+                  bill_length_mm = 4,
+                  bill_depth_mm = 4,
+                  flipper_length_mm = 3,
+                  body_mass_g = 4,
+                  sex = 6,
+                  year = 4
+           ),
+         col_types =
+           cols(sex = col_factor(),
+                year = col_integer())
+         )</code></pre>
+<pre><code>## # A tibble: 344 x 8
+##    species island bill_length_mm bill_depth_mm flipper_length_~ body_mass_g
+##    &lt;chr&gt;   &lt;chr&gt;           &lt;dbl&gt;         &lt;dbl&gt;            &lt;dbl&gt;       &lt;dbl&gt;
+##  1 Adelie  Torge~           39.1          18.7              181        3750
+##  2 Adelie  Torge~           39.5          17.4              186        3800
+##  3 Adelie  Torge~           40.3          18                195        3250
+##  4 Adelie  Torge~           NA            NA                 NA          NA
+##  5 Adelie  Torge~           36.7          19.3              193        3450
+##  6 Adelie  Torge~           39.3          20.6              190        3650
+##  7 Adelie  Torge~           38.9          17.8              181        3625
+##  8 Adelie  Torge~           39.2          19.6              195        4675
+##  9 Adelie  Torge~           34.1          18.1              193        3475
+## 10 Adelie  Torge~           42            20.2              190        4250
+## # ... with 334 more rows, and 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;</code></pre>
+<p>You can download the fixed-width version of the palmerpenguins data file here: <a href="https://drive.google.com/file/d/1_TaotqgmiQqw0fShrEKueU5nM_RkuHbp/view?usp=sharing" target="blank">penguins_fwf.txt</a></p>
+<p>-30-</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Randall Munroe, <a href="https://what-if.xkcd.com/63/">Google’s Datacentres on Punch Cards</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p><a href="https://retractionwatch.com/2017/10/17/boys-will-boys-data-error-prompts-u-turn-study-sex-differences-school/">Boys will be boys: Data error prompts U-turn on study of sex differences in school</a>—RetractionWatch.com<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Jenny Bryan, STAT545, <a href="https://stat545.com/import-export.html" target="blank">Chapter 9: Writing and reading files</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
