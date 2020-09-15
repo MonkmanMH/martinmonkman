@@ -148,8 +148,11 @@ Here's the docs for the {readr} functions to "Read a fixed width file into a tib
 
 An example: starting with the `fwf_cols` option we saw above, the code below uses `col_types` to specify "sex" as a factor, and "year" as an integer.
 
+For this final version, I've used the `kable()` function from the [{knitr} package](https://yihui.org/knitr/){target="blank"} to render the first 10 rows from the table.
+
 ```{r message=FALSE, error=FALSE, warning=FALSE}
 # with column specification
+penguins <-
 read_fwf("penguins_fwf.txt", 
          fwf_cols(
            species = 9, 
@@ -165,6 +168,8 @@ read_fwf("penguins_fwf.txt",
            cols(sex = col_factor(),
                 year = col_integer())
          )
+
+knitr::kable(head(penguins, n = 10), format = "html")
 ```
 
 
