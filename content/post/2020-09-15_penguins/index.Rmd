@@ -13,6 +13,8 @@ tags:
 - using R
 - tidyverse
 - import
+output:
+  html_document
 ---
 
 _Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop._
@@ -36,7 +38,7 @@ When computer memory was far more expensive than it is now, there was a cost inc
 Here in 2020, cheaper storage and efficient compression methods have meant that CSV files with unfixed variable lengths are more common, but in some big data applications, fixed-width files are still used.
 
 
-## fixed-width penguins
+## Fixed-width penguins
 
 The first 10 rows of the `penguins_fwf.txt` file look like this:
 
@@ -66,7 +68,7 @@ This sort of detailed table is a common component in a data dictionary for a fix
 
 
 
-## importing fixed-width files with {readr} 
+## Importing fixed-width files with {readr} 
 
 The tidyverse package {readr}, part of the tidyverse family of R packages, provides a range of functions that make reading these files efficient.
 
@@ -80,13 +82,13 @@ library(readr)
 The widths and variable names can be added as lists to the `fwf_widths` argument:
 
 ```{r message=FALSE, error=FALSE, warning=FALSE}
-
 read_fwf("penguins_fwf.txt",
          fwf_widths(widths = c(9, 9, 4, 4, 3, 4, 6, 4),
                     col_names = c("species", "island", "bill_length_mm", "bill_depth_mm",
                       "flipper_length_mm", "body_mass_g", "sex", "year")))
 
 ```
+
 
 A second option is to provide two lists of locations using `fwf_positions()`, the first with the start positions, and the second with the end positions. The first variable "species" starts at position 1 and ends at position 9, and the second variable "island" starts at 10 and ends at 18, and so on.
 

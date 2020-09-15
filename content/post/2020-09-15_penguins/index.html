@@ -13,6 +13,8 @@ tags:
 - using R
 - tidyverse
 - import
+output:
+  html_document
 ---
 
 
@@ -32,7 +34,7 @@ tags:
 <p>Here in 2020, cheaper storage and efficient compression methods have meant that CSV files with unfixed variable lengths are more common, but in some big data applications, fixed-width files are still used.</p>
 </div>
 <div id="fixed-width-penguins" class="section level2">
-<h2>fixed-width penguins</h2>
+<h2>Fixed-width penguins</h2>
 <p>The first 10 rows of the <code>penguins_fwf.txt</code> file look like this:</p>
 <div class="figure">
 <img src="penguins_10rows.JPG" alt="penguins_fwf.txt" />
@@ -104,7 +106,7 @@ tags:
 <p>This sort of detailed table is a common component in a data dictionary for a fixed-width file, and is an important element in programming the code to parse the file. In addition to providing vital information to the data user, developing this table also provides a double-check for the data preparer on the accuracy of the location specifications.</p>
 </div>
 <div id="importing-fixed-width-files-with-readr" class="section level2">
-<h2>importing fixed-width files with {readr}</h2>
+<h2>Importing fixed-width files with {readr}</h2>
 <p>The tidyverse package {readr}, part of the tidyverse family of R packages, provides a range of functions that make reading these files efficient.</p>
 <pre class="r"><code># load the {readr} package
 library(readr)</code></pre>
