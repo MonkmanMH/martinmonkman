@@ -14,6 +14,7 @@ tags:
 - using R
 - tidyverse
 - import
+output: html_page
 ---
 
 <small><i>Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop.</i></small>
@@ -68,7 +69,7 @@ This sort of detailed table is a common component in a data dictionary for a fix
 
 The tidyverse package {readr}, part of the tidyverse family of R packages, provides a range of functions that make reading these files efficient.
 
-```{r setup}
+```{r}
 # load the {readr} package
 library(readr)
 ```
