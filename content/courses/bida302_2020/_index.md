@@ -1,13 +1,13 @@
 ---
-date: "2019-10-09"
+date: "2020-09-16"
 draft: false
 lastmod: "2020-09-16"
-linktitle: Data Analytics Coding Fundamentals (BIDA302) [2019/20]
+linktitle: Data Analytics Coding Fundamentals (BIDA302) [autumn 2020]
 menu:
-  bida302_2019:
+  bida302_2020:
     name: Overview
     weight: 1
-summary: Course page for Data Analytics Coding Fundamentals (UVic Continuing Studies, BIDA302) offered in November–December 2019 and March–April 2020.
+summary: Course page for Data Analytics Coding Fundamentals (UVic Continuing Studies, BIDA302) offered in October - November 2020.
 title: Overview
 toc: true
 type: docs
@@ -24,7 +24,7 @@ The course registration page: [Data Analytics Coding Fundamentals](https://conti
 
 ## Course description
 
-In this course you will develop the ability to script and code for basic tasks in Data Analytics in common data analytic tools such as R, Python, and Excel. This will allow you to import and export data appropriately and perform fundamental data manipulations and to automate basic analysis elements.
+This course will explore the fundamentals of coding and scripting for Data Analytics. You will develop the ability to script and code for basic tasks in Data Analytics in common data analytic tools such as R, Python, and Excel. This will allow you to import and export data appropriately and perform fundamental data manipulations and to automate basic analysis elements.
 
 ### Learning objectives
 
