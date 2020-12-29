@@ -1,13 +1,13 @@
 ---
 date: "2019-10-09"
 draft: false
-lastmod: "2020-09-16"
-linktitle: Data Analytics Coding Fundamentals (BIDA302) [2019/20]
+lastmod: "2020-12-29"
+linktitle: Data Analytics Coding Fundamentals (BIDA302)
 menu:
-  bida302_2019:
+  bida302:
     name: Overview
     weight: 1
-summary: Course page for Data Analytics Coding Fundamentals (UVic Continuing Studies, BIDA302) offered in November–December 2019 and March–April 2020.
+summary: Course page for Data Analytics Coding Fundamentals (UVic Continuing Studies, BIDA302).
 title: Overview
 toc: true
 type: docs
@@ -48,6 +48,15 @@ In this course you will develop the ability to script and code for basic tasks i
 
 * Create what-if scenarios
 
+***
+
+## Course materials
+
+* [BIDA302 Github repo](https://github.com/MonkmanMH/UVic_BIDA302)
+
+* [BIDA302 capstone projects Github repo](https://github.com/MonkmanMH/UVic_BIDA302_capstone)
+
+* [tutorials at tutormanner](https://github.com/MonkmanMH/tutormanner) -- tutorials of some hands-on exercises can be found here
 
 
 -30-
