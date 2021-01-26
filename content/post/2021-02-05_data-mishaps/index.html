@@ -1,0 +1,72 @@
+---
+title: "Data Mishaps: ...but I lived to tell the tale"
+author: "Martin Monkman"
+date: "2021-02-05"
+output: html_document
+---
+
+
+
+<!--
+Copyright 2021 Martin Monkman
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+-->
+<p>date of most recent revision: 2021-01-24</p>
+<p><strong>Data Mishaps, online 2021-02-05</strong></p>
+<hr />
+<div id="a-bit-of-context" class="section level2">
+<h2>A bit of context</h2>
+<p><img src="images/BC_library-stats-act_1894.jpg" alt="BC Legislative Library & Statistics Bureau Act, 1894" width="400"/></p>
+<p>I have spent the largest proportion of my career as a public servant at BC Stats, the provincial statistics agency in British Columbia, Canada. I now have the title of “Provincial Statistician &amp; Director”, which is the cause of much imposter syndrome. In the context of this story, I hope telling you my job title demonstrates that it’s possible have a data mishap early in your career, learn from it, and live to tell the tale.</p>
+<p>When I first arrived at BC Stats in the early 1990s, I was filling in for someone who had taken a leave of absence. A big part of the job was estimating the impact of tourism on the provincial economy. One portion this was to calculate hotel and motel revenue (what we called “tourism room revenue”), using the tax paid to the Province as the base. Because we had access to confidential records of each individual business, we were able to calculate detailed revenue estimates by region and accommodation type.</p>
+<p>The workflow looked like this:</p>
+<ol style="list-style-type: decimal">
+<li>The data came to us once a month, a single file of roughly 150 megabytes, copied onto two <a href="https://en.wikipedia.org/wiki/9_track_tape">10 1/2-inch (270 mm) data tapes</a> from the B.C. Government’s mainframe computer, delivered by courier in a big pizza box.</li>
+</ol>
+<p><img src="Largetape.jpg" alt="data tape. Source: Wikipedia; Creative Commons" width="400"/></p>
+<ol start="2" style="list-style-type: decimal">
+<li>We then <a href="https://www.youtube.com/watch?v=YqIrMXxPGUA&amp;ab_channel=CuriousMarc">copied the data file from the tape using our “compact” tape drive</a> and onto our one-and-only network drive.</li>
+</ol>
+<ul>
+<li>The raw data looked something like this:</li>
+</ul>
+<p><img src="hotel_tax_raw.JPG" alt="hotel tax data in raw form" width="400"/></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Our database specialist had written some code, using <a href="https://en.wikipedia.org/wiki/DBase">dbase IV</a>, that created detailed summary tables. The relational database had the raw tax data, and tables that provided details on each property, assigning the property to a category (e.g. hotel or B&amp;B) and using the postal code to identify the city and region. Part of this step was transforming the tax collected into the revenue amount.</li>
+</ol>
+<ul>
+<li>When I first started, the database processing had been taking roughly 12 hours, but when our DBA got a new computer with the first Pentium chip and 40 MB (yes, megabyte) harddrive, it dropped to six hours and we knew we were living in the future. The single summary table was exported as a .db file. The output file looked something like this:</li>
+</ul>
+<p><img src="hotel_tax_revenue.JPG" alt="hotel revenue data" width="400"/></p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>I then opened the .db file in Excel, and based on the workflow that my predecessor left me, undertook a number of manual steps to restructure the data, including running the X11-ARIMA seasonal adjustment, and appending the current month to tables with the previous data series. These new tables looked like this:</p></li>
+<li><p>The final steps was to create a report with summary tables, charts, and some analysis text. Here’s an example of one of those reports:</p></li>
+</ol>
+<p><strong>TRR EXAMPLE REPORT</strong></p>
+<p>After a few months, I discovered that I could apply my rudimentary programming knowledge in support of my statistical analysis, and automate many of the steps.</p>
+<p><em>And thus, I accidentally became a data scientist—before there was a term for such a thing.</em></p>
+<p>Not long after starting to automate the process, I had settled into a comfortable groove. I finished my Master’s degree, then I became a regular employee (i.e. no longer on a short-term temporary contract), and DISNEYLAND</p>
+<p>With the addition of automation, the monthly reports were getting done as efficiently as I could manage. This freed up some time, and I was now able to tackle other interesting projects. But a data mishap was just around the corner…</p>
+</div>
+<div id="the-mishap" class="section level2">
+<h2>The mishap…</h2>
+<p>One month, the new monthly totals were almost universally up, contrary to the prevailing longer-term trend. Nothing to worry about, really—there’s always a bit of month-over-month random fluctuation.</p>
+<p>The next month the totals were again up, and many of the other indicators of tourism activity were down. International visits continued to be lower than the same month of the previous year, and a survey of a sample of hotels indicated that overall occupancy was also down, which couldn’t be explained by the opening of any new hotels.</p>
+<p>I got a couple of calls from people with inside knowledge of the industry, questioning the increase we were showing.</p>
+<p>So I started to work backwards through the workflow, since I felt confident that the error was most likely something I had done, and not the dbase code that my colleague had written.</p>
+<p>My first thought was my code that generated the charts and summary tables in the report (Step 5). Perhaps I had inadvertently introduced an error in my work. Had I pulled values from the wrong rows—were the tables and charts populated with incorrect data?</p>
+<p>Everything there seemed to be fine, so I then investigated Step 4: the processing of the source data tables. There too everything was working as it should.</p>
+<p>So back to Step 3, the domain of our database programmer. I took the time to explain what was happening, and how I’d verified that there was not a problem on my end. So we sat down, and stepped through his code with a small subset of the data (a reproducible example!) But everything was working…hotels were assigned to the right regions,</p>
+<hr />
+<div id="footnotes" class="section level3">
+<h3>Footnotes</h3>
+<p>A footnote</p>
+<p>March 20 1987 – six per cent
+March 31 1993 – seven per cent
+February 20 2002 – 7.5 per cent
+October 21 2004 – seven per cent
+<a href="http://www.daveobee.com/victoria/20080224.htm" class="uri">http://www.daveobee.com/victoria/20080224.htm</a></p>
+</div>
+</div>
