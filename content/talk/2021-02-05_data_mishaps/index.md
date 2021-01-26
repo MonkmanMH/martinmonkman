@@ -13,14 +13,14 @@ math: true
 projects:
 - internal-project
 publishDate: "2021-02-28"
-summary: What I learned from a data mishap.
-tags: [using R]
-title: Data mishaps: what are you measuring?
+summary: What I learned from a data mishap
+tags: [data science]
+title: Data mishaps—what are you measuring?
 links:
 - icon: book
   icon_pack: fa
   name: Talk text
-  url: https://github.com/bcgov/bcgov-rstats-public-presentations/blob/master/2018-11-07_EARL_Seattle/Overcoming_gravity.md
+  url: data_mishap_talk.html
 url_code: ""
 url_pdf: ""
 url_slides: ""
