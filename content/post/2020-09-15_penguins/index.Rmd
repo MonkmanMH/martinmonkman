@@ -29,7 +29,9 @@ The {palmerpenguins} R package contains data collected at the [Palmer Station](h
 
 ## Fixed-width files
 
-This exercise in data import uses a modification of the data found in the {palmerpenguins} package—I have converted the data file to a fixed-width format. This type of plain text file isn't used as much as other types, but you may come across them in your data science journey. 
+This exercise in data import uses a modification of the data found in the {palmerpenguins} package—I have converted the data file to a fixed-width format. ^[You can download the fixed-width version of the palmerpenguins data file in both these locations: [penguins_fwf.txt on this site](https://martinmonkman.com/data/penguins_fwf.txt){target="blank"} or [penguins_fwf.txt from google drive](https://drive.google.com/file/d/1_TaotqgmiQqw0fShrEKueU5nM_RkuHbp/view?usp=sharing){target="blank"}] 
+
+This type of plain text file isn't used as much as other types, but you may come across them in your data science journey. 
 
 One of the attributes of fixed-width files is that there are no delimiters as there are in file types such as CSV (Comma-Separated Value) and TSV (Tab-Separated Value) files. Instead, variables are assigned to specific columns in the file's rows. This means that for very large files, reading the data can be accomplished more efficiently because there is no need to search for commas or other delimiters as every row is read. In addition, the challenge of embedded delimiters is eliminated, since there are none at all.
 
@@ -173,8 +175,6 @@ knitr::kable(head(penguins, n = 10), format = "html")
 ```
 
 
-
-You can download the fixed-width version of the palmerpenguins data file here: [penguins_fwf.txt](https://drive.google.com/file/d/1_TaotqgmiQqw0fShrEKueU5nM_RkuHbp/view?usp=sharing){target="blank"}
 
 
 -30-
