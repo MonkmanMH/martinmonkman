@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+public/
+
+themes/hugo-academic/.gitignore
+themes/hugo-academic/exampleSite/
+themes/hugo-academic/images/
+
+resources/
+
