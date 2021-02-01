@@ -177,5 +177,5 @@ knitr::kable(head(penguins, n = 10), format = "html")
 
 
 
-~30~
+-30-
 
