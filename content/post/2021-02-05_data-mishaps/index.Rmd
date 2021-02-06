@@ -1,7 +1,7 @@
 ---
-title: "When variables are, indeed, variable"
+title: When variables are, indeed, variable
 author: Martin Monkman
-date: '2021-02-05'
+date: '2021-02-04'
 draft: false
 diagram: true
 featured: yes
