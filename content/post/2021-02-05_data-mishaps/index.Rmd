@@ -1,7 +1,7 @@
 ---
 title: When variables are, indeed, variable
 author: Martin Monkman
-date: '2021-02-04'
+date: '2021-02-05'
 draft: false
 diagram: true
 featured: yes
@@ -179,7 +179,7 @@ Another example from baseball is the fact that every baseball park has different
 
 Another way to frame this is to develop _substantive expertise_. As shown in Drew Conway's famous data science Venn diagram^[[Drew Conway, "The Data Science Venn Diagram"](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagramb){target="blank"}], this is an essential ingredient of successful data science.
 
-![Data science Venn diagram](/img/Data_Science_VD.png){width=60%}
+![Data science Venn diagram](images/Data_Science_VD.png){width=60%}
 
 ***
 
