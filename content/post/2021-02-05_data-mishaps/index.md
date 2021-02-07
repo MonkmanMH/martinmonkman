@@ -74,7 +74,7 @@ The workflow looked like this:
 
 * Based on the variable names in the table above, a more precise description of the data manipulation would be:
 
-  - `busname` : join to business listing table to assign property type, count of rooms
+  - `busname` : join to a separate business listing table to assign property type, count of rooms
   
   - `postcode` : geocode to city and region (Census Division)
   
@@ -142,7 +142,7 @@ Being a bit of a "what are the true facts" sort of nerd, I decided to research t
 
 
 
-What I discovered was that prior to April 1993, the tax rate had been 8%—not the 7% that we had been using to calculate the estimate of accommodation revenue. This meant that while the revenue tables from April 1993 to (what was then) the present were correct, all of the revenue figures calculated for the period prior to April 1993 were too high (\$1 of tax at 7% means revenue of \$14.29; \$1 of tax at an 8% rate is $12.50 in revenue.)
+What I discovered was that prior to April 1993, the tax rate had been 8%—not the 7% that we had been using to calculate the estimate of accommodation revenue. This meant that while the revenue tables from April 1993 to (what was then) the present were correct, all of the revenue figures calculated for the period prior to April 1993 were too high ($1 of tax at 7% means revenue of $14.29; $1 of tax at an 8% rate is $12.50 in revenue.)
 
 From an analysis point of view, this meant that there was the appearance that the industry had stagnated for a year, when in fact it had grown.
 
