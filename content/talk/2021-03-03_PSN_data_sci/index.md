@@ -20,7 +20,7 @@ links:
 - icon: book
   icon_pack: fa
   name: Talk text
-  url: https://martinmonkman.com/post/2021-02-05_data-mishaps/
+  url: https://martinmonkman.com/post/2021-03-03_PSN_data_science/
 url_code: ""
 url_pdf: ""
 url_slides: ""
