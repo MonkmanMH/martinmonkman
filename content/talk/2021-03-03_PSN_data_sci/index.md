@@ -16,11 +16,6 @@ publishDate: "2021-02-27"
 summary: Public sector data science and machine learning
 tags: [data science]
 title: Next Generation Data—Unlocking Data Value with Data Science and Machine Learning
-links:
-- icon: book
-  icon_pack: fa
-  name: Talk text
-  url: https://martinmonkman.com/post/2021-03-03_PSN_data_science/
 url_code: ""
 url_pdf: ""
 url_slides: ""

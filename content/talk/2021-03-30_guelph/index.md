@@ -6,7 +6,7 @@ date: "2021-03-30"
 event: IDEV3400 Managing & Evaluating Change in Development—University of Guelph
 featured: false
 image:
-  caption: 'data'
+  caption: '_source: [Karl Hols](https://www.flickr.com/photos/143269811@N04/26979432023/)_'
   focal_point: Right
 location: virtual
 math: true
