@@ -1,14 +1,23 @@
 # Font style metadata
 name = "Default"
 
+### Optional Google font URL
+##google_fonts = "Raleway:400,700|Raleway:400,400italic,700|Raleway+Mono"
+##
+### Font families
+##heading_font = "Raleway"
+##body_font = "Raleway"
+##nav_font = "Raleway"
+##mono_font = "Raleway Mono"
+
 # Optional Google font URL
-google_fonts = "Raleway:400,700|Raleway:400,400italic,700|Raleway+Mono"
+google_fonts = "Titillium Web:400,700|Titillium Web:400,400italic,700|Titillium Web+Mono"
 
 # Font families
-heading_font = "Raleway"
-body_font = "Raleway"
-nav_font = "Raleway"
-mono_font = "Raleway Mono"
+heading_font = "Titillium Web"
+body_font = "Titillium Web"
+nav_font = "Titillium Web"
+mono_font = "Titillium Web Mono"
 
 # Font size
 font_size = "20"
