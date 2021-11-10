@@ -46,7 +46,7 @@ Jean-Paul Sartre wrote "The more sand that has escaped from the hourglass of our
 
 <img src="images/BC_library-stats-act_1894.jpg" alt="BC Legislative Library & Statistics Bureau Act, 1894" width="400"/>
 
-I have spent the largest proportion of my career as a public servant at BC Stats, the provincial statistics agency in British Columbia, Canada. I now have the title of "Provincial Statistician & Director", which by the way is not as glamorous as it sounds. But I don't have a degree in Statistics...my academic background is Geography. How did I get here? 
+I have spent the largest proportion of my career as a public servant at BC Stats, the provincial statistics agency in British Columbia, Canada. I now have the title of "Provincial Statistician & Director", which by the way, is not as glamorous as it sounds. But I don't have a degree in Statistics...my academic background is Geography. How did I get here? 
 
 The first thing you need to know is what it is that BC Stats does. The organization is part of the national statistical system.
 
@@ -63,23 +63,38 @@ In practice, this means that we provide information to government and other publ
 
 ## My career path
 
-Where does your career path start? And what are the key things that happen that determine the direction of that path?
+Where does a career path start? And what are the key things that happen that determine the direction of that path?
 
 
 ### An early sign
 
-In 1968 my parents decided to immigrate to Canada. One thing they received as part of their "Welcome to Canada!" package was the 1967 version of the Canada Year Book ^[[Canada one hundred, 1867-1967](https://publications.gc.ca/site/eng/9.845996/publication.html); note that this page contains a link to a scanned version.], published by the Dominion Bureau of Statistics (now known as Statistics Canada). This book had some nice pictures of our future home, 
+In 1968 my parents decided to immigrate to Canada. One thing they received as part of their "Welcome to Canada!" package was the 1967 version of the Canada Year Book ^[[Canada one hundred, 1867-1967](https://publications.gc.ca/site/eng/9.845996/publication.html); note that this page contains a link to a scanned version.], published by the Dominion Bureau of Statistics (now known as Statistics Canada). 
 
-As well as an assortment of charts and data tables
+![_Canada One Hundred 1867-1967_](images/Canada_100.jpg)
 
 
-I spent a lot of time with this book over the next few years, absorbed in the details of the demographics and economy of Canada.
+This book had some nice pictures of our future home:
 
-If I had been paying attention, I would have said "I love this book so much, I should get a job at the organization that created it." But self-awareness is rather low when you're in primary school, so my path was not a straight line.
+![_Fishing boat, British Columbia_](images/Canada_100_p127_fishing.JPG)
+
+As well as an assortment of charts and data tables:
+
+![_Fisheries value, Canada, 1964_](images/Canada_100_p126_fisheries_value.JPG)
+
+I spent a lot of time with this book over the next few years, absorbed in the details of the geography, demography, and economy of Canada.
+
+If I had been paying attention, I would have said "I love this book so much, I should get a job at the organization that created it." But I wasn't paying attention (probably because I was young), so my path was not a straight line.
+
 
 ### A fork in the road
 
+![A fork in the road (from _The Muppet Movie_)](images/fork_in_the_road.gif)
+
+
 Sartre also wrote "We are our choices."
+
+
+
 
 Choice to go to UVic -- warmer weather, co-op program
 
