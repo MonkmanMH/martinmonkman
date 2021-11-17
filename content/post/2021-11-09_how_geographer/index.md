@@ -73,12 +73,12 @@ Where does a career path start? And what are the key things that happen that det
 
 ### An early sign
 
-In 1968 my parents decided to immigrate to Canada. One thing they received as part of their "Welcome to Canada!" package was the 1967 version of the Canada Year Book ^[[Canada one hundred, 1867-1967](https://publications.gc.ca/site/eng/9.845996/publication.html); note that this page contains a link to a scanned version.], published by the Dominion Bureau of Statistics (now known as Statistics Canada). 
+In 1968 my parents decided to immigrate to Canada, and took jobs in northern Alberta. One thing they received as part of their "Welcome to Canada!" package was the 1967 version of the Canada Year Book ^[[Canada one hundred, 1867-1967](https://publications.gc.ca/site/eng/9.845996/publication.html); note that this page contains a link to a scanned version.], published by the Dominion Bureau of Statistics (now known as Statistics Canada). 
 
 ![_Canada One Hundred 1867-1967_](images/Canada_100.jpg)
 
 
-This book had some nice pictures of our future home:
+This book had some nice pictures of Canada:
 
 ![_Fishing boat, British Columbia_](images/Canada_100_p127_fishing.JPG)
 
@@ -86,34 +86,43 @@ As well as an assortment of charts and data tables:
 
 ![_Fisheries value, Canada, 1964_](images/Canada_100_p126_fisheries_value.JPG)
 
-I spent a lot of time with this book over the next few years, absorbed in the details of the geography, demography, and economy of Canada.
+I spent a lot of time with this book over the next few years, absorbed in the details of the geography, demography, and economy of Canada. It was at least in part a contributing factor in my decision to study geography at university.
 
 If I had been paying attention, I would have said "I love this book so much, I should get a job at the organization that created it." But I wasn't paying attention (probably because I was young), so my path was not a straight line.
 
 
 ### A fork in the road
 
-![A fork in the road (from _The Muppet Movie_)](images/fork_in_the_road.gif){width=50%}
 
-
-Sartre also wrote "We are our choices."
-
-
-
-As I was finishing high school in a small town in northern Alberta, many of my choosing to go to the University of Alberta, down south in Edmonton. But I had been to the west coast a few times, and the idea of attending university in the milder climate of coastal British Columbia had a lot of appeal. And as I learned about the universities, I made the choice to attend the University of Victoria. One of the attractions was the newly-established co-op program in the Geography department. Getting discpline-related work experience as part of your degree program was a novelty at the time. (UVic was only the second university in Canada to introduce co-op after Waterloo, and Geography was only the fourth programme at UVic, after Physics, Chemistry, and Computer Science.)
+As I was finishing high school in a small town in northern Alberta, many of my classmates were choosing to go to the University of Alberta, down south in Edmonton. But I had been to the west coast a few times, and the idea of attending university in the milder climate had a lot of appeal. And as I learned about the universities, I made the choice to attend the University of Victoria. One of the attractions was the newly-established co-op program in the Geography department. Getting discpline-related work experience as part of your degree program was a novelty at the time. (UVic was only the second university in Canada to introduce co-op after Waterloo, and Geography was only the fourth programme at UVic, after Physics, Chemistry, and Computer Science.)
 
 ![_UVic, 1979_](images/UVic_aerial_1979.JPG)
 
 
+
+
 ### First jobs after graduation
 
-Physical geography and resource management
+I finished my B.Sc. in 1983, with an emphasis in physical geography and resource management. I had taken the single required geography stats course (GEOG321 at the time), but for a variety of reasons didn't pursue it further. I also took the first year computer science programming courses, writing programs in FORTRAN on punch cards.
 
-Parks
+![_computer punch card_]
 
-economy
+My last co-op work term was with BC Parks, where I applied my physical geography skills in the context of recreation resource management. A dream job for almost any geographer! And I was very fortunate to be able to land a temporary job ("auxiliary" in B.C. public service jargon) with BC Parks right after graduation. I got paid to visit some outstanding natural areas, including what is now the [Stein Valley Nlaka'pamux Heritage Park](https://bcparks.ca/explore/parkpgs/stein_val/) while it was being evaluated for protection as a provincial park. I look back on this part of my career, all those years ago, with a sense of accomplishment: I helped, with my own small contribution, protect and manage some of the most significant natural places in the province.
 
-Transportation
+But while I was very fortunate in that regard, I also happened to graduate into a particularly bleak economic period.
+
+![_Macleans cover, "Young and Out of Work"_]
+
+Starting with (month), there were 44 consecutive months where the unemployment rate in B.C. was 13% or higher. Not the best time to graduate from university!
+
+![_BC unemployment_]
+
+
+But I eventually found a job with the Geotechnical & Materials Engineering Branch of the Ministry of Transportation, using my physical geography skills, first assessing natural hazard risk areas (such as avalanche zones), and then sand and gravel deposits for highway construction and maintenance (think glaciofluvial deposits like kame terraces and eskers).
+
+It wasn't the most glamorous job but it helped pay the bills.
+
+![_Getting the truck unstuck_]
 
 ### Another fork in the road
 
