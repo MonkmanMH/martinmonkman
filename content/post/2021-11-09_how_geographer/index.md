@@ -31,7 +31,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 
 >_This blog post is a long-form version of the talk I gave to the Geography 500A class at the University of Victoria on 2021-11-08.
-Thanks to Dr. Eduardo Loos for the invitation, and the students in the class for being an engaged audience._
+Thanks to Dr. Eduardo Loos for the invitation, and the students in the class for being such an engaged audience._
 
 
 
@@ -46,9 +46,12 @@ Jean-Paul Sartre wrote "The more sand that has escaped from the hourglass of our
 
 <img src="images/BC_library-stats-act_1894.jpg" alt="BC Legislative Library & Statistics Bureau Act, 1894" width="400"/>
 
-I have spent the largest proportion of my career as a public servant at BC Stats, the provincial statistics agency in British Columbia, Canada. I now have the title of "Provincial Statistician & Director", which by the way, is not as glamorous as it sounds. But I don't have a degree in Statistics...my academic background is Geography. How did I get here? 
+![_BC Legislative Library & Statistics Bureau Act, 1894_](images/BC_library-stats-act_1894.jpg){width=40%}
 
-The first thing you need to know is what it is that BC Stats does. The organization is part of the national statistical system.
+
+I have spent the largest proportion of my career as a public servant at BC Stats, the provincial statistics agency in British Columbia, Canada. I now have the title of "Provincial Statistician & Director", which, by the way, is not as glamorous as it sounds. But I don't have a degree in Statistics...my academic background is Geography. How did I get here? 
+
+The first thing you need to know is what it is that BC Stats does. The organization is part of the British Columbia government, and part of the national statistical system.
 
 > The objective of national statistical systems is to provide relevant, comprehensive, accurate and objective (politically untainted) statistical information. - Ivan Fellegi, Chief Statistician of Canada from 1985-2008 ^[Ivan Fellegi, “Characteristics of an Effective Statistical System”
 International Statistical Review / Revue Internationale de Statistique
@@ -59,6 +62,8 @@ https://www.jstor.org/stable/1403738
 ]
 
 In practice, this means that we provide information to government and other public sector organizations, so that they can make evidence-based policy decisions.
+
+![_evidence-based policy_](images/yes_to_evidence_based_policy.jpg){width=75%}
 
 
 ## My career path
@@ -88,15 +93,16 @@ If I had been paying attention, I would have said "I love this book so much, I s
 
 ### A fork in the road
 
-![A fork in the road (from _The Muppet Movie_)](images/fork_in_the_road.gif)
+![A fork in the road (from _The Muppet Movie_)](images/fork_in_the_road.gif){width=50%}
 
 
 Sartre also wrote "We are our choices."
 
 
 
+As I was finishing high school in a small town in northern Alberta, many of my choosing to go to the University of Alberta, down south in Edmonton. But I had been to the west coast a few times, and the idea of attending university in the milder climate of coastal British Columbia had a lot of appeal. And as I learned about the universities, I made the choice to attend the University of Victoria. One of the attractions was the newly-established co-op program in the Geography department. Getting discpline-related work experience as part of your degree program was a novelty at the time. (UVic was only the second university in Canada to introduce co-op after Waterloo, and Geography was only the fourth programme at UVic, after Physics, Chemistry, and Computer Science.)
 
-Choice to go to UVic -- warmer weather, co-op program
+![_UVic, 1979_](images/UVic_aerial_1979.JPG)
 
 
 ### First jobs after graduation
