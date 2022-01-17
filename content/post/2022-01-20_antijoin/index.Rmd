@@ -1,0 +1,100 @@
+---
+title: A filtering join use-case
+author: Martin Monkman
+date: "2022-12-31"
+publishDate: "2022-12-31"
+draft: true
+diagram: true
+featured: yes
+image:
+  caption: '_Shohei Otani_'
+  placement: 3
+markup: mmark
+math: true
+tags:
+- data science
+- database
+- using R
+- tidyverse
+- dplyr
+output:
+  html_document
+---
+
+
+
+<!--
+Copyright 2022 Martin Monkman
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+-->
+
+
+>_This example was developed after one of the participants in a course I teach^[("Data Analytics Coding Fundamentals", BIDA 302)[https://continuingstudies.uvic.ca/business-technology-and-public-relations/courses/data-analytics-coding-fundamentals], part of the University of Victoria Continuing Studies' Business Intelligence and Data Analytics series] asked for a real-life example of when we might employ a filtering join.
+
+> The example will be revised and added as a vignette in the ({Lahman} package)[https://CRAN.R-project.org/package=Lahman].
+
+
+> Image credit: Erik Drost. This file is licensed under the Creative Commons (Attribution 2.0 Generic license)[https://creativecommons.org/licenses/by/2.0/deed.en]. Image source: (Wikimedia Commons)[https://commons.wikimedia.org/wiki/File:Shohei_Otani_(48484060286)_(cropped).jpg]
+_
+
+
+
+***
+
+```{r}
+library(tidyverse)
+library(Lahman)
+```
+
+
+## Introduction
+
+Joins are a powerful tool in data science, allowing us to combine the contents of two tables on one or more shared variables. (Efficiency in storage, etc)
+
+Mutating joins (those that add variables) such as left and full joins are the most commonly used, and the ones that are most straightfoward to explain. _Filtering joins_ are a different story; the explanation is somewhat more abstract, perhaps because they are less frequently used in the wild.
+
+Here we will use the Lahman database of baseball data to explore both mutating and filtering joins. The table `Batting` contains the annual records of individual players who came up to bat by each team they played for, going back to `r min(Lahman::Batting$yearID)`. Thus a player who played multiple seasons or for multiple teams in a single season will have multiple records (rows) in the table. In the `Batting` table, each player is identified with a single unique code in the variable `playerID`, with the first four characters from their first name, the first two from their second name, and a two digit specifier to accommodate cases where there are multiple players with the same (or similar) names.
+
+The `People` table contains single record for each player, including their full name, date of birth, and other biographical details. The variable `playerID` is the key variable in this table, allowing a straight-forward way to join relevant information to each of the rows in the `Batting` table. 
+
+The `People` table contains more individuals than are present in the `Batting` table. Someone whose entire career was as a pitcher or manager would not have a record in the `Batting` table.
+
+
+## A mutating join
+
+The {Lahman} database gives us the opportunity to see the benefits of a mutating join. Here, we will filter the `Batting` table to return the list of players who hit the most home runs during the pandemic-abbreviated 2020 season.
+
+```{r}
+
+Batting %>% 
+  filter(yearID == 2020) %>% 
+  slice_max(order_by = HR, n = 5) %>% 
+  select(playerID, HR, yearID, teamID, lgID)
+
+
+```
+
+The first thing we might notice is that although we specified 5 records to be returned, there are 6 in the resulting table. The `slice_max()` function will return multiples in the cases when there are ties; here, there are 3 players who hit 17 home runs in 2020. (The paired function `slice_min()` has the same behaviour.)
+
+The next thing you might observe are the player identifiers. Unless you're a baseball fan who knows the current players, these are likely to be cryptic. This is where we can use a join function to get the full names from the `People` table.
+
+
+### Final observation
+
+![_Willie Nelson: a transformation_](images/Willie_before_after.jpg)
+
+
+* Don’t force yourself to be something you are not
+
+* Focus on your strengths (don't paper over your weaknesses)
+
+* Be authentically who you really are
+
+“We are our choices.”
+― Jean-Paul Sartre
+
+
+
+-30-

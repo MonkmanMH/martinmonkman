@@ -3,7 +3,7 @@ title: How does a geographer end up with the job title "Provincial Statistician"
 author: Martin Monkman
 date: "2021-12-31"
 publishDate: "2021-12-31"
-draft: false
+draft: true
 diagram: true
 featured: yes
 image:
