@@ -1,0 +1,162 @@
+---
+title: Summary statistics with {palmerpenguins}
+author: Martin Monkman
+date: '2022-01-26'
+draft: true
+diagram: true
+featured: yes
+image:
+  caption: 'Image credit: [**© Arturo de Frias Marques / CC-BY-SA-4.0**](https://en.wikipedia.org/wiki/Gentoo_penguin#/media/File:Gentoo_Penguin_AdF.jpg)'
+  placement: 3
+tags:
+- data science
+- using R
+- tidyverse
+- dplyr
+output:
+  html_document
+---
+
+_Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop._
+
+
+
+In an earlier post, we looked at importing a fixed-width text file, using the data in the {palmerpenguins} R package. For this post, we will use the same data to create summary statistics using the {dplyr} package's `group_by()` and `summarise()` (or `summarize()`, if you prefer).
+
+The {palmerpenguins} R package contains data collected at the [Palmer Station](https://www.usap.gov/videoclipsandmaps/palwebcam.cfm){target="blank"} on [Anvers Island in the Antarctic](https://www.openstreetmap.org/search?query=palmer%20road#map=16/-64.7741/-64.0503){target="blank"}. The data is measurement information about three different species of penguins, from three smaller islands in the area. You can find out more about the data in the package, as well as some other examples of exploring and analyzing the data using R, here: [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/){target="blank"}
+
+
+![palmerpenguins](logo.png)
+
+First, we load the packages we will need. The `library(tidyverse)` command loads {dplyr}, the package that contains the data wrangling functions we will be using, along with other packages, including those that enable the pipe operator `%>%`.
+
+```{r package_load}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+Let's take a look at the data. First, we can use `glimpse()` (another function in {dplyr}) to get a list of the variables in the data:
+
+```{r}
+glimpse(penguins)
+```
+
+From this list, we can see there are four variables that we might use as the basis of our summarizations:
+
+* species
+
+* island
+
+* sex
+
+* year
+
+To view the data in tabular form, the `head()` function displays the first 6 rows of data:
+
+```{r}
+# the kable function makes the table look nice!
+knitr::kable(
+  head(penguins),
+  format = "html")
+```
+
+
+## Counting cases
+
+The `summarise()` function creates summary statistics of a specified variable. A common first step in any exploratory data analysis is to count the number of records. The `n()` function returns the number of records (rows).
+
+Note that in this example, a variable `penguin_count` is created. In the examples further, the count function will be expressed as `n = n()` as is common in other resources and functions you may encounter.
+
+```{r}
+penguins %>% 
+  summarise(penguin_count = n())
+```
+
+An equivalent is the `tally()` function, which returns the same result:
+
+```{r}
+penguins %>% 
+  tally()
+```
+
+We can count the number of cases of a categorical variable by adding a `group_by()` function before the `summarise()`. Here, we count the number of records for each penguin species.
+
+```{r}
+penguins %>% 
+  group_by(species) %>% 
+  summarise(n = n())
+
+```
+
+Or, as we saw earlier, we can use `tally()` in place of `summarise(n = n())`:
+
+```{r}
+penguins %>% 
+  group_by(species) %>% 
+  tally()
+```
+
+Another {dplyr} function that streamlines our code still further is `count()`, which combines `group_by()` and `tally()`. In it, we specify the grouping variable (here it is species).
+
+```{r}
+penguins %>% 
+  count(species)
+```
+
+These functions allow us to have multiple grouping variables. In the code below, the count of the number of birds of each species that were recorded on each island is tabulated:
+
+```{r}
+
+penguins %>% 
+  group_by(species, island) %>% 
+  tally()
+
+```
+
+
+## Other summary statistics
+
+The `summarise()` function can be used to calculate other statistics of the variables. Here, we calculate the average body mass (weight) of the birds in the data. Note the use of `na.rm = TRUE` to deal with the `NA` values that appear in the `body_mass_g` variable.
+
+```{r}
+penguins %>% 
+  summarise(mean(body_mass_g, na.rm = TRUE))
+```
+
+
+And as we saw before, the `group_by()` function gives us the ability to quickly calculate that statistic for subsets of the data.
+
+```{r}
+
+penguins %>% 
+  group_by(species, island) %>% 
+  summarise(body_mass_g_mean = mean(body_mass_g, na.rm = TRUE))
+```
+
+It's also possible to put multiple summary calculations inside the `summarise()` function. In the code below, the count and mean body mass calculations are combined, along with the calculation of the standard deviation of body mass.
+
+```{r}
+
+penguins %>% 
+  group_by(species, island) %>% 
+  summarise(n = n(),
+            body_mass_g_mean = mean(body_mass_g, na.rm = TRUE),
+            body_mass_g_sddev = sd(body_mass_g, na.rm = TRUE))
+```
+
+
+
+## Calculation of additional statistics
+
+Ratio of two variables
+
+```{r}
+penguins %>% 
+  group_by(species) %>% 
+  summarise(bill_ratio = sum(bill_length_mm, na.rm = TRUE) / sum(bill_depth_mm, na.rm = TRUE))
+```
+
+
+
+-30-
+
