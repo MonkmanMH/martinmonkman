@@ -12,10 +12,12 @@ image:
 markup: mmark
 math: true
 tags:
-- geography
 - data science
 - using R
+- teaching
+- learning
 - career
+- professional development
 output:
   html_document
 ---
@@ -23,7 +25,7 @@ output:
 
 
 <!--
-Copyright 2021-2022 Martin Monkman
+Copyright 2022 Martin Monkman
 
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
@@ -39,21 +41,12 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 ## Abstract
 
 
-It is a truth universally acknowledged...
-
-...that writing 100 words about your talk is a challenge.
+It’s a universally accepted truism that we live in a time of unprecedented change, both in terms of the magnitude and the pace of those changes. In the world of statistics, there have been enormous changes at the intersection of tools, methodologies and techniques, and transparency. New software packages, new ways to analyze data, and new open data arrive every day, each of which have implications for how we approach our professional development. In this talk, I will present observations drawn from applied statistical practice and teaching mid-career professionals that suggest possible responses that will allow us to keep pace with a perpetually shifting ecosystem.
 
 
-I will present about the
+***
 
-* thing one
-
-* item 2
-
-* point trois
-
-* and maybe one more thing
-
+##
 
 
 -30-
