@@ -69,7 +69,7 @@ Spreadsheets before GUI
 
 Methods constrained by the limitations of the tools
 
-* Markov chain Monte Carlo (MCMC)
+* Markov chain Monte Carlo (MCMC): as Christian Robert and George Casella have written, the paradigm shift of MCMC methods trace back to 1953, but it wasn't until 1990 that the theory and the necessary computing power converged^[Christian Robert and George Casella, "A Short History of Markov Chain Monte Carlo: Subjective Recollections from Incomplete Data", _Statistical Science_, 2011, Vol. 26, No. 1, 102-115. [DOI: 10.1214/10-STS351](https://projecteuclid.org/journals/statistical-science/volume-26/issue-1/A-Short-History-of-Markov-Chain-Monte-Carlo--Subjective/10.1214/10-STS351.full)]
 
 
 -30-
