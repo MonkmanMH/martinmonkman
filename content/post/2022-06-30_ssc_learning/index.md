@@ -53,13 +53,23 @@ C'est un truisme universellement accepté que de dire que nous vivons une époqu
 
 Traduit avec www.DeepL.com/Translator (version gratuite)
 
-https://www.deepl.com/en/translator#en/fr/Continuous%20Learning%20in%20Times%20of%20Continuous%20Change%0A%0AIt%E2%80%99s%20a%20universally%20accepted%20truism%20that%20we%20live%20in%20a%20time%20of%20unprecedented%20change%2C%20both%20in%20terms%20of%20the%20magnitude%20and%20the%20pace%20of%20those%20changes.%20In%20the%20world%20of%20statistics%2C%20there%20have%20been%20enormous%20changes%20at%20the%20intersection%20of%20tools%2C%20methodologies%20and%20techniques%2C%20and%20transparency.%20New%20software%20packages%2C%20new%20ways%20to%20analyze%20data%2C%20and%20new%20open%20data%20arrive%20every%20day%2C%20each%20of%20which%20have%20implications%20for%20how%20we%20approach%20our%20professional%20development.%20In%20this%20talk%2C%20I%20will%20present%20observations%20drawn%20from%20applied%20statistical%20practice%20and%20teaching%20mid-career%20professionals%20that%20suggest%20possible%20responses%20that%20will%20allow%20us%20to%20keep%20pace%20with%20a%20perpetually%20shifting%20ecosystem.%0A%0A%0A
-
 
 
 ***
 
-##
+## Career
+
+Punch cards
+
+Data stored on tape
+
+Word processors before WYSIWYG
+
+Spreadsheets before GUI
+
+Methods constrained by the limitations of the tools
+
+* Markov chain Monte Carlo (MCMC)
 
 
 -30-
