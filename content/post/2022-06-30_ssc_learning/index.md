@@ -7,7 +7,7 @@ draft: true
 diagram: true
 featured: yes
 image:
-  caption: '_a learner_'
+  caption: '_Stephen Leacock_'
   placement: 3
 markup: mmark
 math: true
@@ -70,6 +70,25 @@ Spreadsheets before GUI
 Methods constrained by the limitations of the tools
 
 * Markov chain Monte Carlo (MCMC): as Christian Robert and George Casella have written, the paradigm shift of MCMC methods trace back to 1953, but it wasn't until 1990 that the theory and the necessary computing power converged^[Christian Robert and George Casella, "A Short History of Markov Chain Monte Carlo: Subjective Recollections from Incomplete Data", _Statistical Science_, 2011, Vol. 26, No. 1, 102-115. [DOI: 10.1214/10-STS351](https://projecteuclid.org/journals/statistical-science/volume-26/issue-1/A-Short-History-of-Markov-Chain-Monte-Carlo--Subjective/10.1214/10-STS351.full)]
+
+
+
+Stephen Leacock, on getting his Doctor of Philosophy:
+
+>The meaning of this degree is that the
+recipient of instruction is examined for the last time in his life, and
+is pronounced completely full. After this, no new ideas can be imparted
+to him. (Preface, [_Sunshine Sketches of a Little Town_](https://onlinebooks.library.upenn.edu/webbin/gutbook/lookup?num=3533), 1912) 
+
+But in truth, Leacock held a very different view:
+
+>what I want to advocate is not to make education shorter, but to make it much longer—indeed to make it last as long as life itself.
+
+>What I find wrong is the stark division now existing between the years of formal education and entry into the work of life. Education has become to a great extent a mere acquirement of a legal qualification to enter a closed profession, in place of being a process undertaken for its own sake. All that is best in education can only be acquired by spontaneous interest; thus gained it lasts and goes on. (Preface, [_Too Much College, or, Education Eating Up Life_](https://gutenberg.ca/ebooks/leacock-toomuchcollege/leacock-toomuchcollege-00-h.html), 1939)
+
+See also _Leacock on Life_ https://www.jstor.org/stable/10.3138/9781442676619
+
+
 
 
 -30-
