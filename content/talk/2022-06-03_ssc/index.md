@@ -20,7 +20,7 @@ links:
 - icon: book
   icon_pack: fa
   name: Talk text
-  url: https://martinmonkman.com/talk/2022-05-31_ssc/
+  url: https://martinmonkman.com/post/2022-06-03_ssc_learning/
 url_code: ""
 url_pdf: ""
 url_slides: ""
