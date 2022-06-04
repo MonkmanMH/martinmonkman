@@ -13,7 +13,7 @@ math: true
 projects:
 - internal-project
 publishDate: "2022-03-31"
-summary: Data science for social scientists
+summary: 'How does a geographer end up with the job title "Provincial Statistician"?'
 tags: [data science]
 title: Always another fork in the road
 url_code: ""
