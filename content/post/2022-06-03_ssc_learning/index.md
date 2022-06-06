@@ -102,11 +102,11 @@ I present these as examples as what has changed over the span of my career. We h
 
 But there has been—or perhaps, more accurately, we are in the midst of—a paradigm shift. And it's not just the fact that the tools, methods, and workflow have changed, it's that they now _continuously_ change.
 
-Let's think at software, and how commercial products slowly evolved. As one example, when I was in graduate school, we were using SAS version 6, which lasted a dozen years with . SAS 6.01 had been released in July 1986 and it wasn't until October 1998 that version 7 arrived. Under the SAS/STAT label, the version releases are coming on an annual or biennial cycle. The current version of SAS/STAT, 15.2, was released nearly two years after 15.1.
+Let's think about software, and how commercial products slowly evolved. As one example, when I was in graduate school, we were using SAS version 6, which lasted a dozen years with . SAS 6.01 had been released in July 1986 and it wasn't until October 1998 that version 7 arrived. Under the SAS/STAT label, the version releases are coming on an annual or biennial cycle. The current version of SAS/STAT, 15.2, was released nearly two years after 15.1.
 
 Open source software, by way of contrast, is in a constant state of development. In the R ecosystem, one I am familiar with, the core of R changes slowly. Updates come every six months or so, and the team of developers are mindful of the introduction of breaking changes.
 
-The packages around the core of R are a different story. There are, as of 2022-05-30, 18,600 packages available on CRAN (the Comprehensive R Archive Network). These are packages that have passed rigorous scrutiny, and are maintained to ensure currency. In addition there are many other packages that are available for download from sites such as GitHub.
+The packages around the core of R are a different story. There are, as of 2022-05-30, 18,600 packages available on [CRAN (the Comprehensive R Archive Network)](https://cran.r-project.org/). These are packages that have passed rigorous scrutiny, and are maintained to ensure currency. In addition there are many other packages that are available for download from sites such as GitHub.
 
 We can look at the development history of a widely-used data wrangling package, {dplyr}^[Wickham H, François R, Henry L, Müller K (2022). [_dplyr: A Grammar of Data Manipulation_](https://dplyr.tidyverse.org).]. Version 1.0.0 was released on May 29, 2020. In the space of a little over a year (386 days, to be precise) seven updates were released (version 1.0.7 was released on June 19, 2021). 
 
@@ -127,7 +127,7 @@ As someone who has recruited and hired recent graduates from various university 
 
 For example, more and more programs are teaching open source tools such as R and Python. Introductory courses give students the opportunity to tackle core statistical methods (such as regression) using new tools, and by introducing those new tools early in their programs, the students are well-positioned to learn new methods in their upper-level and graduate courses.
 
-Another important development is the incorporation of what we might call software engineering approaches—such as version control and code testing—into those courses. This is inherent in the recently minted data science graduate degrees, which are often a joint enterprise of the Statistics and Computer Science departments. These programs are often a "whole is greater than the sum of the parts", particularly when they invite students who have undergraduate degrees in other disciplines.
+Another important development is the incorporation of what we might call software engineering approaches—such as version control and code testing—into those courses^[See Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017) Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.]. This is also inherent in the recently minted data science graduate degrees, which are often a joint enterprise of the Statistics and Computer Science departments. These programs are often a "whole is greater than the sum of the parts", particularly when they invite students who have undergraduate degrees in other disciplines.
 
 
 ### Back to school 
@@ -143,7 +143,7 @@ There are a variety of courses now offered, both in person at your local univers
 
 One thing in common is that these courses recognize that many participants already know statistics and data analysis—they know the steps in going from raw data to a final artifact (whether a journal article or a briefing for the organization's executive):
 
-![Data science workflow, Garrett Grolemund and Hadley Wickham, [_R for Data Science_](https://r4ds.had.co.nz/index.html)](/img/data-science-explore.png)
+![Data science workflow, Source: Garrett Grolemund and Hadley Wickham, [_R for Data Science_](https://r4ds.had.co.nz/index.html)](/img/data-science-explore.png)
 
 That is to say, they have a pre-existing interest in this process. What they are looking for is a course that teaches tool use. An analogy would be teaching an established carpenter who has been using a hand saw to build a table, but wants to learn how to use an electric table saw. The carpenter knows how the pieces of wood are going to look before and after they get cut—but now they have a tool to make that process of cutting the wood more efficient.
 
