@@ -17,8 +17,8 @@ description = ""
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
 
-# Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+## Twitter username (without @). Used when a vistor shares your site on Twitter.
+#twitter = ""
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -72,7 +72,7 @@ email = "martin.monkman@gmail.com"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM me", link = "https://twitter.com/monkmanmh"},
+#  {icon = "twitter", icon_pack = "fab", name = "DM me", link = "https://twitter.com/monkmanmh"},
   {icon = "skype", icon_pack = "fab", name = "Skype me", link = "skype:monkmanmh?call"},
 #  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
 #  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
