@@ -4,6 +4,10 @@ project:
     - "*.qmd"
     - "*.md"
 
+# from https://quarto.org/docs/publishing/netlify.html#freezing-computations-1
+#execute:
+#  freeze: auto
+
 website:
   title: "Martin Monkman"
   site-url: "https://martinmonkman.com"
