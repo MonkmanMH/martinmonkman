@@ -1,5 +1,4 @@
 - source: project
   netlify:
-    - id: "a6dba492-1674-42ca-9bcb-8421193e9cc9"
-      url: "https://epic-bose-4bd32b.netlify.app/"
-      
+    - id: a6dba492-1674-42ca-9bcb-8421193e9cc9
+      url: 'https://martinmonkman.com'
