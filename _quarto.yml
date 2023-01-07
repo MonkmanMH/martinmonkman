@@ -1,0 +1,43 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+
+website:
+  title: "Martin Monkman"
+  site-url: "https://martinmonkman.com"
+  navbar:
+    background: "#0F4C81"
+    left:
+#      - href: blog/index.qmd
+#        text: Blog
+#      - href: publications/index.qmd
+#        text: Publications
+#      - href: software/index.qmd
+#        text: Software
+#      - href: talks/index.qmd
+#        text: Talks
+      - href: courses/index.qmd
+        text: Courses
+      - href: about/index.qmd
+        text: About
+  page-footer:
+    left: "Copyright 2010–2023, Martin Monkman"
+    right:
+      - icon: github
+        href: https://github.com/monkmanmh
+      - icon: mastodon
+        href: https://mastodon.social/@monkmanmh
+    background: "#0F4C81"
+
+date-format: "YYYY-MM-DD"
+
+format:
+  html:
+    theme: tango
+    css: styles.css
+    toc: true
+    html-math-method: katex
+    include-in-header:
+      file: header.html

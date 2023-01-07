@@ -1,0 +1,24 @@
+---
+about:
+  template: trestles
+  image: martinmonkman_2017.jpg
+  links:
+    - icon: mastodon
+      text: mastodon
+      href: https://mastodon.social/@monkmanmh
+    - icon: github
+      text: github
+      href: https://github.com/monkmanmh
+    - icon: envelope
+      text: mail
+      href: mailto:monkmanmh@yahoo.ca
+---
+
+**Martin Monkman**<br>
+Senior Manager, Consulting Services<br>
+MNP LLP<br>
+&<br>
+Instructor, Continuing Studies<br>
+University of Victoria<br>
+Victoria, British Columbia, Canada
+
