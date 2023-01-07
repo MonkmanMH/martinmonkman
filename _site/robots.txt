@@ -1,1 +1,1 @@
-Sitemap: https://martinmonkman.com/sitemap.xml
+Sitemap: https://epic-bose-4bd32b.netlify.app/sitemap.xml

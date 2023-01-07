@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://martinmonkman.com/index.html</loc>
-    <lastmod>2023-01-07T05:07:05.955Z</lastmod>
+    <loc>https://epic-bose-4bd32b.netlify.app/about/index.html</loc>
+    <lastmod>2023-01-07T05:19:39.561Z</lastmod>
+  </url>
+  <url>
+    <loc>https://epic-bose-4bd32b.netlify.app/blog/index.html</loc>
+    <lastmod>2023-01-07T05:19:40.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://epic-bose-4bd32b.netlify.app/blog/radioactivity.html</loc>
+    <lastmod>2023-01-07T05:19:40.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://epic-bose-4bd32b.netlify.app/courses/index.html</loc>
+    <lastmod>2023-01-07T05:19:40.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://epic-bose-4bd32b.netlify.app/index.html</loc>
+    <lastmod>2023-01-07T05:19:41.268Z</lastmod>
   </url>
 </urlset>
