@@ -2,9 +2,30 @@
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "Martin Monkman",
+    "title": "About me",
     "section": "",
-    "text": "About me\nSome more detail about who I am and what I do."
+    "text": "Martin Monkman is an innovative and entrepeneurial data science and research practitioner, leader and educator—a generalist with a talent for temporary specialization—with a national reputation for creating value for public sector organizations, and finding trusted data-driven answers to public policy, business outcome, and program performance questions.\n\n\n\n\n\nMastodon\n\n\nGitHub\n\n\nLinkedin"
+  },
+  {
+    "objectID": "about/index.html#experience",
+    "href": "about/index.html#experience",
+    "title": "About me",
+    "section": "Experience",
+    "text": "Experience\nForthcoming"
+  },
+  {
+    "objectID": "about/index.html#location",
+    "href": "about/index.html#location",
+    "title": "About me",
+    "section": "Location",
+    "text": "Location\n\n\nView Larger Map"
+  },
+  {
+    "objectID": "about/index.html#memberships",
+    "href": "about/index.html#memberships",
+    "title": "About me",
+    "section": "Memberships",
+    "text": "Memberships\nI am a member of the following organizations:\n\nStatistical Society of Canada\nSociety for American Baseball Research (SABR); Northwest (Pacific Northwest) Chapter & Statistical Analysis Research Committee"
   },
   {
     "objectID": "blog/index.html",
@@ -32,6 +53,6 @@
     "href": "index.html",
     "title": "Martin Monkman",
     "section": "",
-    "text": "Martin Monkman Senior Manager, Consulting Services MNP LLP & Instructor, Continuing Studies University of Victoria Victoria, British Columbia, Canada"
+    "text": "Martin Monkman Senior Manager, Consulting Services MNP LLP & Instructor, Continuing Studies University of Victoria Victoria, British Columbia, Canada\nNote: this site is under reconstruction, migrating from Hugo to Quarto"
   }
 ]

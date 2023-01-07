@@ -22,3 +22,5 @@ Instructor, Continuing Studies<br>
 University of Victoria<br>
 Victoria, British Columbia, Canada
 
+
+_Note: this site is under reconstruction, migrating from Hugo to [Quarto](https://quarto.org/)_
