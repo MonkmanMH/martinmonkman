@@ -1,0 +1,12 @@
+---
+title: "Martin's blog"
+description: Long-form versions of talks, other miscellany
+listing:
+  contents: .
+  sort: "date desc"
+  type: default
+  categories: cloud
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+---

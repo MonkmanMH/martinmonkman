@@ -14,8 +14,8 @@ website:
   navbar:
     background: "#0F4C81"
     left:
-#      - href: blog/index.qmd
-#        text: Blog
+      - href: post/index.qmd
+        text: Blog
 #      - href: publications/index.qmd
 #        text: Publications
 #      - href: software/index.qmd
