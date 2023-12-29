@@ -24,6 +24,8 @@ website:
 #        text: Talks
       - href: courses/index.qmd
         text: Courses
+      - href: book/index.qmd
+        text: Book
       - href: about/index.qmd
         text: About
   page-footer:

@@ -1,0 +1,24 @@
+# The Data Preparation Journey: Finding Your Way With R
+
+
+_The Data Preparation Journey: Finding Your Way With R_, a forthcoming book published with CRC Press as part of [The Data Science Series](https://www.routledge.com/Chapman--HallCRC-Data-Science-Series/book-series/CHDSS).
+
+
+> The Data Preparation Journey: Finding Your Way With R introduces the principles of data preparation within in a systematic approach that follows a typical data science or statistical workflow. With that context, readers will work through practical solutions to resolving problems in data using the statistical and data science programming language R. These solutions include examples of complex real-world data, adding greater context and exposing the reader to greater technical challenges. This book focuses on the Import to Tidy to Transform steps. It demonstrates how “Visualise” is an important part of Exploratory Data Analysis, a strategy for identifying potential problems with the data prior to cleaning.  
+This book is designed for readers with a working knowledge of data manipulation functions in R or other programming languages. It is suitable for academics for whom analyzing data is crucial, businesses who make decisions based on the insights gleaned from collecting data from customer interactions, and public servants who use data to inform policy and program decisions. The principles and practices described within The Data Preparation Journey apply regardless of the context.  
+Key Features:   
+* Includes R package containing the code and data sets used in the book  
+* Comprehensive examples of data preparation from a variety of disciplines  
+* Defines the key principles of data preparation, from access to publication  
+
+
+You can purchase the book from [CRC Press/Routledge at this link](https://www.routledge.com/The-Data-Preparation-Journey-Finding-Your-Way-with-R/Monkman/p/book/9781032189758)
+
+
+There is an [online version](https://bookdown.org/martin_monkman/DataPreparationJourney/) version of the book.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="https://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br/>  
+
+* The online version of the book is published with the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
