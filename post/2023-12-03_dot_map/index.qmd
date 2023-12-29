@@ -5,6 +5,7 @@ title: "Population density map"
 categories:
 - data science
 - using R
+- rstats
 - mapping
 - population
 image: featured.jpg

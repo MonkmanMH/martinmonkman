@@ -5,7 +5,7 @@ title: "When variables are, indeed, variable"
 categories:
 - data science
 - using R
-- #rstats
+- rstats
 - data mishaps
 image: featured.png
 ---

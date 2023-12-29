@@ -5,7 +5,7 @@ title: "Same name, different bird"
 categories:
 - data science
 - using R
-- #rstats
+- rstats
 - ornithology
 image: featured.jpg
 ---
