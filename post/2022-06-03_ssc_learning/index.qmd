@@ -5,6 +5,7 @@ title: "Continuous Learning in a Time of Continuous Change"
 categories:
 - data science
 - using R
+- #rstats
 - teaching
 - learning
 - career
