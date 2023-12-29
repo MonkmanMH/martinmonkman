@@ -29,7 +29,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 Daysymetric dot-density maps are a great way to show population. The density of the dots is proportional to the number of individuals, so that geographically large areas don't overwhelm our perceptions. This is particularly the case in mapping regions that combine urban and rural areas; the large but comparatively sparsely populated rural areas dominate our view.
 
-For the 2023 #30DayMapChallenge, the 27th day was "Dots" and Kyle Walker made a nice map of the Seattle area, showing the density of people by their race, using data from the US Census through the [R package {tidycensus}](https://walker-data.com/tidycensus/). I was inspired by that map to create a daysymetric dot-density map of my hometown, Victoria, British Columbia, Canada.
+For the 2023 #30DayMapChallenge, the 27th day was "Dots" and Kyle Walker made a nice map of the Seattle area, showing the density of people by their race, using data from the US Census through the [R package {tidycensus}](https://walker-data.com/tidycensus/). I was inspired by that map to create a daysymetric dot-density map of my hometown, [Victoria, British Columbia, Canada.](https://www.openstreetmap.org/#map=11/48.5007/-123.4822)
+
+## Project setup
 
 My first step was to get the data I need from the Canadian Census. While {tidycensus} is for the USA, in Canada we can leverage the [{cancensus} package](https://mountainmath.github.io/cancensus/index.html). This package gives us direct access to tidied Census data that Statisics Canada makes available under an open license.^[[Statistics Canada Open License](https://www.statcan.gc.ca/en/reference/licence)]
 
@@ -37,24 +39,24 @@ The {cancensus} package requires an API key, which I have saved in a separate fi
 
 
 
-```{r setup}
-
+```{r setup, message=FALSE}
 # tidyverse
-#library(tidyverse)
 library(dplyr)
 library(ggplot2)
 
+# for file paths relative to our R project location
 library(here)
 
+# mapping packages--functions specified in code below
 #library(sf)
 #library(terra)  # for plotting population as dots
 
-#library(mapboxapi)
 
 # cancensus
 library(cancensus)
 # set cache directory
 options(cancensus.cache_path = here::here("post", "2023-12-03_dot_map", "cache_cancensus"))
+
 
 # API key
 # set API key (stored in text file "secretAPI.txt")
@@ -62,6 +64,8 @@ secret_API_cancensus <- readLines(here("post", "2023-12-03_dot_map", "scripts", 
 options(cancensus.api_key = secret_API_cancensus)
 
 ```
+
+## Get the data
 
 Once we have the packages loaded and our options set, we can call the data we need.
 
@@ -122,6 +126,8 @@ victoria_cma_sf <- get_census(
 
 The "victoria_cma_sf" dataframe contains 84 rows, one for each of the Census Tracts in the Census Metropolitan Area.
 
+## Start plotting
+
 We can use this dataframe to plot an unadorned map of the region, showing the boundaries of the various Census Tracts. This uses `geom_sf()` within a `ggplot()` function. How easy is that?
 
 ```{r}
@@ -134,6 +140,8 @@ map_ct
 
 ```
 
+
+## Choropleth map
 
 One way we often see population mapped is as a choropleth, with the areas shaded by the value of the variable we are plotting. The vector number "v_CA21_1" contains the total population of each of the CTs; it's used as the `aes()` within the `geom_sf()`.
 
@@ -148,6 +156,7 @@ map_ct +
 ```
 
 
+## Dot density map
 
 To make our map, we need to take the total population of each CT, divide it by the number of people we want to represent with a dot, and then randomly assign a location of dots within that CT such that the total population is represented. 
 
@@ -170,9 +179,7 @@ as_dot_density <- function(
     groups <- unique(input_data[[group]])
     
     output_dots <- purrr::map_dfr(groups, function(g) {
-      
       group_data <- input_data[input_data[[group]] == g, ]
-      
       group_data %>%
         terra::vect() %>%
         terra::dots(field = value,
@@ -188,15 +195,12 @@ as_dot_density <- function(
                   size = values_per_dot) %>%
       sf::st_as_sf()
   }
-  
   # Sometimes, a strange dot gets thrown in.  Ensure this doesn't get returned.
   output_dots <- sf::st_filter(output_dots, input_data)
   
   return(output_dots)
-  
-  
-}
 
+}
 
 ```
 
@@ -204,9 +208,7 @@ as_dot_density <- function(
 In our `as_dot_density()` function we specify the dataframe, the variable (as `value =`) and the number of people to represent with each dot. For example, if the area has a population of 400 and you set `values_per_dot = 10`, it will assign 40 dots. After some experimentation, I landed on a value of 100 to produce a distribution I was happy with. I assigned this to an object `people_per_dot` so it can be used in the plot caption later.
 
 ```{r}
-
 people_per_dot <- 100
-
 
 victoria_dots <- as_dot_density(
   input_data = victoria_cma_sf,
@@ -215,6 +217,8 @@ victoria_dots <- as_dot_density(
 )
 ```
 
+
+With the 100 persons per dot calculation complete, they points can be plotted on the Census Tract map.
 
 ```{r}
 map_ct_dots <- map_ct +
