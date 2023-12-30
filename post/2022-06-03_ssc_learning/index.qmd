@@ -24,7 +24,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 -->
 
 
->_This blog post is a long-form version of the talk I gave at the Statistical Society of Canada conference on 2022-06-03, one of the invited panelists on "Maintaining Relevancy Through New Tools, Data Science and Data Visualizations"._
+>_A long-form version of my presentation at the Statistical Society of Canada conference on 2022-06-03, one of the invited panelists on "Maintaining Relevancy Through New Tools, Data Science and Data Visualizations"._
 
 
 

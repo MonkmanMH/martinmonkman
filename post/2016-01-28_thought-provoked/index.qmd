@@ -20,6 +20,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 
 
+>_"Continuous learning": over-worked cliche or necessary for success?_
+
 
 ![_A Trio of Learners._](featured.jpg)
 
@@ -32,7 +34,7 @@ At one point during during the seminar of authoring tools in the History 5702W s
 Not only is there no longer single way to create a paper (just fire up MS Word and start typing!), out here on the frontier it is constantly changing. Which in turn means that we are forever on the upslope of the learning curve. The curve shifts and we slide back down, with more to learn further up the curve; a Sisyphian task if ever there were.
 
 
-![_Sisyphus_, Titian, 1549](01sisyph.jpg)
+![_Sisyphus_, Titian, 1549](01sisyph.jpg){width = 50%, height = 50%}
 
 <small>(Source: [Web Gallery of Art](http://www.wga.hu/html_m/t/tiziano/09/01sisyph.html))</small>
 

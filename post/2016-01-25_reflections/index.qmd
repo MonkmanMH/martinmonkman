@@ -18,6 +18,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 -->
 
 
+
+>_Some random ideas about data analysis methods._
+
+
+
 ![_Three Carleton University students taking their canoe out of the Rideau Canal._](featured.jpg)
 
 <small><a href="https://library.carleton.ca/asc">Carleton University, Archives & Special Collections</a></small>

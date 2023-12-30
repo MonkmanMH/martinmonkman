@@ -21,6 +21,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 -->
 
 
+_Fixed-width text files are not as frequently encountered as they used to be, but they are still out there. This exercise is a walk-though of the process of importing a version of the {palmerpenguins} data, using the R {readr} package._
+
 
 
 ![_Gentoo penguins in Antarctica, walking along a "penguin highway", a path that joins the sea and their nesting area on a rocky outcrop._](featured.jpg)
