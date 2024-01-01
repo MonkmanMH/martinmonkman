@@ -1,0 +1,14 @@
+---
+date: 2021-02-05
+title: When variables are, indeed, variable
+venue: Data Mishaps, virtual
+---
+
+
+In the category of ["Unchecked Assumptions: When you’ve done a brilliant data project, but you missed a fundamental piece of information."](https://datamishapsnight.com/past-events/)
+
+
+## Long-form article
+
+[_When variables are, indeed, variable_](../post/2021-02-05_data-mishaps/)
+
