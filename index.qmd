@@ -15,12 +15,11 @@ about:
 ---
 
 **Martin Monkman**<br>
-Senior Manager, Consulting Services<br>
-MNP LLP<br>
-&<br>
-Instructor, Continuing Studies<br>
+Semi-retired <br>
+<br>
+Instructor (part-time), Continuing Studies<br>
 University of Victoria<br>
-Victoria, British Columbia, Canada
+Victoria, British Columbia, Canada<br>
 
 
 _Note: this site is under reconstruction, migrating from Hugo to [Quarto](https://quarto.org/)_
