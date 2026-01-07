@@ -22,8 +22,8 @@ website:
 #        text: Publications
 #      - href: software/index.qmd
 #        text: Software
-      - href: talks/index.qmd
-        text: Talks
+#      - href: talks/index.qmd
+#        text: Talks
       - href: courses/index.qmd
         text: Courses
       - href: dpjr/index.qmd
