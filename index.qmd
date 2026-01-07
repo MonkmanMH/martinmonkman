@@ -25,5 +25,3 @@ Victoria, British Columbia, Canada<br>
 _Note: this site is under reconstruction, migrating from Hugo to [Quarto](https://quarto.org/)_
 
 
-And it doesn't deploy any more, why?
-

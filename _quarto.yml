@@ -14,6 +14,8 @@ website:
   navbar:
     background: "#0F4C81"
     left:
+      - href: about/index.qmd
+        text: About
       - href: post/index.qmd
         text: Blog
 #      - href: publications/index.qmd
@@ -24,12 +26,10 @@ website:
         text: Talks
       - href: courses/index.qmd
         text: Courses
-      - href: book/index.qmd
-        text: Book
-      - href: about/index.qmd
-        text: About
+      - href: dpjr/index.html
+        text: _The Data Preparation Journey_
   page-footer:
-    left: "Copyright 2010–2023, Martin Monkman"
+    left: "Copyright 2010–2025, Martin Monkman"
     right:
       - icon: github
         href: https://github.com/monkmanmh
